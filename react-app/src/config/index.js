@@ -2,27 +2,7 @@
 const publicUrl = process.env.PUBLIC_URL
 
 const menus = {
-    topbar : [
-        { path: `/`, label: "Home" },
-    ],
-    leftdropdowns : [
-        {
-            label: "Public",
-            entries: [
-              { path: `/public`, label: "Public Content" }
-            ]
-        }
-    ],
-    rightdropdowns : [
-        {
-            label: "Private",
-            onlyifauthenticated: true,
-            entries: [
-              { path: `/protected`, label: "Private Content" },
-              { path: `/player`, label: "Play MP4" }
-            ]
-        }
-    ]
+
 };
 
 // To avoid same-origin issues, make API requests to origin.
@@ -35,6 +15,6 @@ console.log(`Read configuration.  Public_URL: ${publicUrl}`)
 // console.log(`apiPrefix:  ${apiPrefix}`)
 
 export default { menus,
-    branding: "CS3214 Demo App 2022",
+    branding: "Preston Verling",
     apiPrefix, publicUrl
 }
