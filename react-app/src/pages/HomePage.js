@@ -21,8 +21,7 @@ let HomePage = (props) => (
       <Col>
         <p>
           This small <a href="https://reactjs.org/">React {React.version}</a>{" "}
-          app shows how to use the JWT authentication facilities of your server
-          in a progressive single-page web application.
+          app that is an inprogress version of a portfolio website.
         </p>
       </Col>
     </Row>
