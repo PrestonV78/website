@@ -35,6 +35,6 @@ console.log(`Read configuration.  Public_URL: ${publicUrl}`)
 // console.log(`apiPrefix:  ${apiPrefix}`)
 
 export default { menus,
-    branding: "Preston Verling Portfolio App\t\t",
+    branding: "Preston Verling Portfolio App                                                              ",
     apiPrefix, publicUrl
 }
