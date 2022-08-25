@@ -30,7 +30,9 @@ const AppContainer = (props) => (
               <Route exact path={`/`} element={<HomePage />} />
               <Route path={`/logout`} element={<Logout />} />
               <Route path={`/login`} element={<LoginPage />} />
-              <Route path={`/public`} element={<PublicPage />} />
+              <Route path={`/resume`} element={<ResumePage />} />
+              <Route path={`/contact`} element={<ContactPage />} />
+              <Route path={`/projects`} element={<ProjectsPage />} />
               <Route path={`/protected`} element={<PrivatePage />} />
               <Route path={`/player`} element={<PlayerPage />} />
               <Route element={<NotFoundPage />} />
