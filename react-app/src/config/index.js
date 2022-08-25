@@ -8,12 +8,21 @@ const menus = {
         { path: `/projects`, label: "Projects" },
         { path: `/contact`, label: "Contact" },
     ],
+    leftdropdowns : [
+        {
+            label: "Public",
+            entries: [
+              { path: `/public`, label: "Public Content" }
+            ]
+        }
+    ],
     rightdropdowns : [
         {
             label: "Private",
             onlyifauthenticated: true,
             entries: [
               { path: `/protected`, label: "Private Content" },
+              { path: `/player`, label: "Play MP4" }
             ]
         }
     ]
