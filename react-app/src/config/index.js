@@ -6,7 +6,7 @@ const menus = {
         { path: `/`, label: "Home" },
         { path: `/resume`, label: "Resume" },
         { path: `/projects`, label: "Projects" },
-        { path: `/contact`, label: "Contact" },
+        { path: `/contact`, label: "Contact" }
     ],
     leftdropdowns : [
         {
