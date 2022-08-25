@@ -5,7 +5,7 @@ const PublicPage = () => (
   <Container>
     <h1>Welcome to a public page</h1>
     <div>
-      This Public page is meaningless.
+      This public page is accessible to anyone.
       </div>
   </Container>);
 
