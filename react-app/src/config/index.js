@@ -4,14 +4,9 @@ const publicUrl = process.env.PUBLIC_URL
 const menus = {
     topbar : [
         { path: `/`, label: "Home" },
-    ],
-    leftdropdowns : [
-        {
-            label: "Public",
-            entries: [
-              { path: `/public`, label: "Public Content" }
-            ]
-        }
+        { path: `/resume`, label: "Resume" },
+        { path: `/projects`, label: "Projects" },
+        { path: `/contact`, label: "Contact" },
     ],
     rightdropdowns : [
         {
@@ -19,7 +14,6 @@ const menus = {
             onlyifauthenticated: true,
             entries: [
               { path: `/protected`, label: "Private Content" },
-              { path: `/player`, label: "Play MP4" }
             ]
         }
     ]
@@ -35,6 +29,6 @@ console.log(`Read configuration.  Public_URL: ${publicUrl}`)
 // console.log(`apiPrefix:  ${apiPrefix}`)
 
 export default { menus,
-    branding: "Preston Verling Portfolio App                                                              ",
+    branding: "Preston Verling Web App                                                              ",
     apiPrefix, publicUrl
 }
