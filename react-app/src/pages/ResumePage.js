@@ -146,9 +146,7 @@ const ResumePage = () => (
                                         <span style={{ color: "#010203" }}>
                                           <span
                                             style={{
-                                              textShadow:
-                                                "rgba(0, 0, 0, 0.498039) -1px -1px 0px, rgba(0, 0, 0, 0.498039) -1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px -1px 0px"
-                                            }}
+                                             }}
                                           >
                                             <span
                                               style={{
@@ -193,9 +191,7 @@ const ResumePage = () => (
                                         <span style={{ color: "#010203" }}>
                                           <span
                                             style={{
-                                              textShadow:
-                                                "rgba(0, 0, 0, 0.498039) -1px -1px 0px, rgba(0, 0, 0, 0.498039) -1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px -1px 0px"
-                                            }}
+                                             }}
                                           >
                                             <span
                                               style={{
@@ -602,9 +598,7 @@ const ResumePage = () => (
                                         <span style={{ color: "#010203" }}>
                                           <span
                                             style={{
-                                              textShadow:
-                                                "rgba(0, 0, 0, 0.498039) -1px -1px 0px, rgba(0, 0, 0, 0.498039) -1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px -1px 0px"
-                                            }}
+                                              }}
                                           >
                                             <span
                                               style={{
