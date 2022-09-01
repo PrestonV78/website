@@ -56,7 +56,7 @@ const ResumePage = () => (
   </pages-css>
   <div id="SITE_CONTAINER">
     <div id="main_MF">
-      <div id="BACKGROUND_GROUP">
+      {/* <div id="BACKGROUND_GROUP">
         <div id="BACKGROUND_GROUP_TRANSITION_GROUP">
           <div
             id="pageBackground_klk7a"
@@ -75,7 +75,7 @@ const ResumePage = () => (
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div id="site-root">
         <div id="masterPage" className="mesh-layout">
           <div id="SITE_HEADER-placeholder" />
@@ -619,7 +619,7 @@ const ResumePage = () => (
                                           fontSize: 25
                                         }}
                                       >
-                                        <span className="color_11">
+                                        <span style={{ color: "#8015e8" }}>
                                           <span
                                             style={{
                                               textShadow:
@@ -708,6 +708,27 @@ const ResumePage = () => (
                                               }}
                                             >
                                               Bachelor's
+                                            </p>
+                                          </div>
+                                          <div
+                                            id="comp-k23bnzje"
+                                            className="_2Hij5 _3bcaz"
+                                            data-testid="richTextElement"
+                                          >
+                                            <p
+                                              className="font_9"
+                                              style={{
+                                                lineHeight: "normal",
+                                                fontSize: 14
+                                              }}
+                                            >
+                                              <span
+                                                style={{
+                                                  letterSpacing: "normal"
+                                                }}
+                                              >
+                                                Blacksburg, VA
+                                              </span>
                                             </p>
                                           </div>
                                           <div
@@ -822,27 +843,6 @@ const ResumePage = () => (
                                               </span>
                                             </p>
                                           </div>
-                                          <div
-                                            id="comp-k23bnzje"
-                                            className="_2Hij5 _3bcaz"
-                                            data-testid="richTextElement"
-                                          >
-                                            <p
-                                              className="font_9"
-                                              style={{
-                                                lineHeight: "normal",
-                                                fontSize: 14
-                                              }}
-                                            >
-                                              <span
-                                                style={{
-                                                  letterSpacing: "normal"
-                                                }}
-                                              >
-                                                Blacksburg, VA
-                                              </span>
-                                            </p>
-                                          </div>
                                         </div>
                                       </div>
                                     </div>
@@ -864,29 +864,7 @@ const ResumePage = () => (
                                             id="comp-l129epj0"
                                             className="_2Hij5 _3bcaz"
                                             data-testid="richTextElement"
-                                          >
-                                            <p
-                                              className="font_8"
-                                              style={{
-                                                fontSize: 15,
-                                                textAlign: "center"
-                                              }}
-                                            >
-                                              <span
-                                                style={{ fontWeight: "bold" }}
-                                              >
-                                                <span style={{ fontSize: 15 }}>
-                                                  <span
-                                                    style={{
-                                                      fontFamily:
-                                                        "avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif"
-                                                    }}
-                                                  >
-                                                    Software Design
-                                                  </span>
-                                                </span>
-                                              </span>
-                                            </p>
+                                          >                                            
                                             <p
                                               className="font_8"
                                               style={{
@@ -907,493 +885,6 @@ const ResumePage = () => (
                                                     <span className="wixGuard">
                                                       ​
                                                     </span>
-                                                  </span>
-                                                </span>
-                                              </span>
-                                            </p>
-                                            <p
-                                              className="font_8"
-                                              style={{
-                                                fontSize: 15,
-                                                textAlign: "center"
-                                              }}
-                                            >
-                                              <span
-                                                style={{ fontWeight: "bold" }}
-                                              >
-                                                <span style={{ fontSize: 15 }}>
-                                                  <span
-                                                    style={{
-                                                      fontFamily:
-                                                        "avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif"
-                                                    }}
-                                                  >
-                                                    Data Structures and
-                                                    Algorithms
-                                                  </span>
-                                                </span>
-                                              </span>
-                                            </p>
-                                            <p
-                                              className="font_8"
-                                              style={{
-                                                fontSize: 15,
-                                                textAlign: "center"
-                                              }}
-                                            >
-                                              <span
-                                                style={{ fontWeight: "bold" }}
-                                              >
-                                                <span style={{ fontSize: 15 }}>
-                                                  <span
-                                                    style={{
-                                                      fontFamily:
-                                                        "avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif"
-                                                    }}
-                                                  >
-                                                    <span className="wixGuard">
-                                                      ​
-                                                    </span>
-                                                  </span>
-                                                </span>
-                                              </span>
-                                            </p>
-                                            <p
-                                              className="font_8"
-                                              style={{
-                                                fontSize: 15,
-                                                textAlign: "center"
-                                              }}
-                                            >
-                                              <span
-                                                style={{ fontWeight: "bold" }}
-                                              >
-                                                <span style={{ fontSize: 15 }}>
-                                                  <span
-                                                    style={{
-                                                      fontFamily:
-                                                        "avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif"
-                                                    }}
-                                                  >
-                                                    Software Design and Data
-                                                    Structures
-                                                  </span>
-                                                </span>
-                                              </span>
-                                            </p>
-                                            <p
-                                              className="font_8"
-                                              style={{
-                                                fontSize: 15,
-                                                textAlign: "center"
-                                              }}
-                                            >
-                                              <span
-                                                style={{ fontWeight: "bold" }}
-                                              >
-                                                <span style={{ fontSize: 15 }}>
-                                                  <span
-                                                    style={{
-                                                      fontFamily:
-                                                        "avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif"
-                                                    }}
-                                                  >
-                                                    <span className="wixGuard">
-                                                      ​
-                                                    </span>
-                                                  </span>
-                                                </span>
-                                              </span>
-                                            </p>
-                                            <p
-                                              className="font_8"
-                                              style={{
-                                                fontSize: 15,
-                                                textAlign: "center"
-                                              }}
-                                            >
-                                              <span
-                                                style={{ fontWeight: "bold" }}
-                                              >
-                                                <span style={{ fontSize: 15 }}>
-                                                  <span
-                                                    style={{
-                                                      fontFamily:
-                                                        "avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif"
-                                                    }}
-                                                  >
-                                                    Problem Solving in Computer
-                                                    Science
-                                                  </span>
-                                                </span>
-                                              </span>
-                                            </p>
-                                            <p
-                                              className="font_8"
-                                              style={{
-                                                fontSize: 15,
-                                                textAlign: "center"
-                                              }}
-                                            >
-                                              <span
-                                                style={{ fontWeight: "bold" }}
-                                              >
-                                                <span style={{ fontSize: 15 }}>
-                                                  <span
-                                                    style={{
-                                                      fontFamily:
-                                                        "avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif"
-                                                    }}
-                                                  >
-                                                    <span className="wixGuard">
-                                                      ​
-                                                    </span>
-                                                  </span>
-                                                </span>
-                                              </span>
-                                            </p>
-                                            <p
-                                              className="font_8"
-                                              style={{
-                                                fontSize: 15,
-                                                textAlign: "center"
-                                              }}
-                                            >
-                                              <span
-                                                style={{ fontWeight: "bold" }}
-                                              >
-                                                <span style={{ fontSize: 15 }}>
-                                                  <span
-                                                    style={{
-                                                      fontFamily:
-                                                        "avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif"
-                                                    }}
-                                                  >
-                                                    Intro to Computer
-                                                    Organization
-                                                  </span>
-                                                </span>
-                                              </span>
-                                            </p>
-                                            <p
-                                              className="font_8"
-                                              style={{
-                                                fontSize: 15,
-                                                textAlign: "center"
-                                              }}
-                                            >
-                                              <span
-                                                style={{ fontWeight: "bold" }}
-                                              >
-                                                <span style={{ fontSize: 15 }}>
-                                                  <span
-                                                    style={{
-                                                      fontFamily:
-                                                        "avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif"
-                                                    }}
-                                                  >
-                                                    <span className="wixGuard">
-                                                      ​
-                                                    </span>
-                                                  </span>
-                                                </span>
-                                              </span>
-                                            </p>
-                                            <p
-                                              className="font_8"
-                                              style={{
-                                                fontSize: 15,
-                                                textAlign: "center"
-                                              }}
-                                            >
-                                              <span
-                                                style={{ fontWeight: "bold" }}
-                                              >
-                                                <span style={{ fontSize: 15 }}>
-                                                  <span
-                                                    style={{
-                                                      fontFamily:
-                                                        "avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif"
-                                                    }}
-                                                  >
-                                                    Computer Systems
-                                                  </span>
-                                                </span>
-                                              </span>
-                                            </p>
-                                          </div>
-                                          <div
-                                            id="comp-l129ikoc"
-                                            className="_1ncY2"
-                                          >
-                                            <div
-                                              className="_13Lxq"
-                                              data-testid="container-bg"
-                                            />
-                                            <div
-                                              data-mesh-id="comp-l129ikocinlineContent"
-                                              data-testid="inline-content"
-                                              className=""
-                                            >
-                                              <div
-                                                data-mesh-id="comp-l129ikocinlineContent-gridContainer"
-                                                data-testid="mesh-container-content"
-                                              />
-                                            </div>
-                                          </div>
-                                          <div
-                                            id="comp-k24at7vx"
-                                            className="_2Hij5 _3bcaz"
-                                            data-testid="richTextElement"
-                                          >
-                                            <p
-                                              className="font_8"
-                                              style={{
-                                                fontSize: 15,
-                                                textAlign: "center"
-                                              }}
-                                            >
-                                              <span
-                                                style={{ fontWeight: "bold" }}
-                                              >
-                                                <span style={{ fontSize: 15 }}>
-                                                  <span
-                                                    style={{
-                                                      fontFamily:
-                                                        "avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif"
-                                                    }}
-                                                  >
-                                                    Applied Combinatorics
-                                                  </span>
-                                                </span>
-                                              </span>
-                                            </p>
-                                            <p
-                                              className="font_8"
-                                              style={{
-                                                fontSize: 15,
-                                                textAlign: "center"
-                                              }}
-                                            >
-                                              <span
-                                                style={{ fontWeight: "bold" }}
-                                              >
-                                                <span style={{ fontSize: 15 }}>
-                                                  <span
-                                                    style={{
-                                                      fontFamily:
-                                                        "avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif"
-                                                    }}
-                                                  >
-                                                    <span className="wixGuard">
-                                                      ​
-                                                    </span>
-                                                  </span>
-                                                </span>
-                                              </span>
-                                            </p>
-                                            <p
-                                              className="font_8"
-                                              style={{
-                                                fontSize: 15,
-                                                textAlign: "center"
-                                              }}
-                                            >
-                                              <span
-                                                style={{ fontWeight: "bold" }}
-                                              >
-                                                <span style={{ fontSize: 15 }}>
-                                                  <span
-                                                    style={{
-                                                      fontFamily:
-                                                        "avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif"
-                                                    }}
-                                                  >
-                                                    Multivariable Calculus
-                                                  </span>
-                                                </span>
-                                              </span>
-                                            </p>
-                                            <p
-                                              className="font_8"
-                                              style={{
-                                                fontSize: 15,
-                                                textAlign: "center"
-                                              }}
-                                            >
-                                              <span
-                                                style={{ fontWeight: "bold" }}
-                                              >
-                                                <span style={{ fontSize: 15 }}>
-                                                  <span
-                                                    style={{
-                                                      fontFamily:
-                                                        "avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif"
-                                                    }}
-                                                  >
-                                                    <span className="wixGuard">
-                                                      ​
-                                                    </span>
-                                                  </span>
-                                                </span>
-                                              </span>
-                                            </p>
-                                            <p
-                                              className="font_8"
-                                              style={{
-                                                fontSize: 15,
-                                                textAlign: "center"
-                                              }}
-                                            >
-                                              <span
-                                                style={{ fontWeight: "bold" }}
-                                              >
-                                                <span style={{ fontSize: 15 }}>
-                                                  <span
-                                                    style={{
-                                                      fontFamily:
-                                                        "avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif"
-                                                    }}
-                                                  >
-                                                    Single Variable Calculus
-                                                  </span>
-                                                </span>
-                                              </span>
-                                            </p>
-                                            <p
-                                              className="font_8"
-                                              style={{
-                                                fontSize: 15,
-                                                textAlign: "center"
-                                              }}
-                                            >
-                                              <span
-                                                style={{ fontWeight: "bold" }}
-                                              >
-                                                <span style={{ fontSize: 15 }}>
-                                                  <span
-                                                    style={{
-                                                      fontFamily:
-                                                        "avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif"
-                                                    }}
-                                                  >
-                                                    <span className="wixGuard">
-                                                      ​
-                                                    </span>
-                                                  </span>
-                                                </span>
-                                              </span>
-                                            </p>
-                                            <p
-                                              className="font_8"
-                                              style={{
-                                                fontSize: 15,
-                                                textAlign: "center"
-                                              }}
-                                            >
-                                              <span
-                                                style={{ fontWeight: "bold" }}
-                                              >
-                                                <span style={{ fontSize: 15 }}>
-                                                  <span
-                                                    style={{
-                                                      fontFamily:
-                                                        "avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif"
-                                                    }}
-                                                  >
-                                                    Discrete Mathematics
-                                                  </span>
-                                                </span>
-                                              </span>
-                                            </p>
-                                            <p
-                                              className="font_8"
-                                              style={{
-                                                fontSize: 15,
-                                                textAlign: "center"
-                                              }}
-                                            >
-                                              <span
-                                                style={{ fontWeight: "bold" }}
-                                              >
-                                                <span style={{ fontSize: 15 }}>
-                                                  <span
-                                                    style={{
-                                                      fontFamily:
-                                                        "avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif"
-                                                    }}
-                                                  >
-                                                    <span className="wixGuard">
-                                                      ​
-                                                    </span>
-                                                  </span>
-                                                </span>
-                                              </span>
-                                            </p>
-                                            <p
-                                              className="font_8"
-                                              style={{
-                                                fontSize: 15,
-                                                textAlign: "center"
-                                              }}
-                                            >
-                                              <span
-                                                style={{ fontWeight: "bold" }}
-                                              >
-                                                <span style={{ fontSize: 15 }}>
-                                                  <span
-                                                    style={{
-                                                      fontFamily:
-                                                        "avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif"
-                                                    }}
-                                                  >
-                                                    Linear Algebra
-                                                  </span>
-                                                </span>
-                                              </span>
-                                            </p>
-                                            <p
-                                              className="font_8"
-                                              style={{
-                                                fontSize: 15,
-                                                textAlign: "center"
-                                              }}
-                                            >
-                                              <span
-                                                style={{ fontWeight: "bold" }}
-                                              >
-                                                <span style={{ fontSize: 15 }}>
-                                                  <span
-                                                    style={{
-                                                      fontFamily:
-                                                        "avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif"
-                                                    }}
-                                                  >
-                                                    <span className="wixGuard">
-                                                      ​
-                                                    </span>
-                                                  </span>
-                                                </span>
-                                              </span>
-                                            </p>
-                                            <p
-                                              className="font_8"
-                                              style={{
-                                                fontSize: 15,
-                                                textAlign: "center"
-                                              }}
-                                            >
-                                              <span
-                                                style={{ fontWeight: "bold" }}
-                                              >
-                                                <span style={{ fontSize: 15 }}>
-                                                  <span
-                                                    style={{
-                                                      fontFamily:
-                                                        "avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif"
-                                                    }}
-                                                  >
-                                                    Cryptography
                                                   </span>
                                                 </span>
                                               </span>
