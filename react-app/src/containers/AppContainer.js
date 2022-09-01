@@ -27,6 +27,7 @@ const AppContainer = (props) => (
                   user={props.user} 
                   loginUrl={`/login`}
                   logoutUrl={`/logout`}
+                  bg="dark" variant="dark"
         />
       <div className="container-fluid marketing">
           <Routes>
