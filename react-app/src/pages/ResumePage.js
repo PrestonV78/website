@@ -143,7 +143,7 @@ const ResumePage = () => (
                                           fontSize: 35
                                         }}
                                       >
-                                        <span style={{ color: "#8015e8" }}>
+                                        <span style={{ color: "#010203" }}>
                                           <span
                                             style={{
                                               textShadow:
@@ -190,7 +190,7 @@ const ResumePage = () => (
                                           fontSize: 25
                                         }}
                                       >
-                                        <span style={{ color: "#8015e8" }}>
+                                        <span style={{ color: "#010203" }}>
                                           <span
                                             style={{
                                               textShadow:
@@ -599,7 +599,7 @@ const ResumePage = () => (
                                           fontSize: 25
                                         }}
                                       >
-                                        <span style={{ color: "#8015e8" }}>
+                                        <span style={{ color: "#010203" }}>
                                           <span
                                             style={{
                                               textShadow:
