@@ -1688,9 +1688,9 @@ const ResumePage = () => (
                                     <span style={{ letterSpacing: "normal" }}>
                                       <a
                                         data-auto-recognition="true"
-                                        href="mailto:prestonv@vt.edu"
+                                        href="mailto: pverling@yahoo.com"
                                       >
-                                        prestonv@vt.edu
+                                         pverling@yahoo.com
                                       </a>
                                     </span>
                                   </p>
