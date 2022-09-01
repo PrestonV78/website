@@ -691,7 +691,7 @@ const ResumePage = () => (
                                             </p>
                                           </div>
                                           <div
-                                            id="comp-k0qh73xl"
+                                            id="comp-k23bnzjb"
                                             className="_2Hij5 _3bcaz"
                                             data-testid="richTextElement"
                                           >
@@ -702,13 +702,7 @@ const ResumePage = () => (
                                                 fontSize: 14
                                               }}
                                             >
-                                              <span
-                                                style={{
-                                                  letterSpacing: "normal"
-                                                }}
-                                              >
-                                                Blacksburg, VA
-                                              </span>
+                                              Blacksburg, VA
                                             </p>
                                           </div>
                                           <div
@@ -802,9 +796,6 @@ const ResumePage = () => (
                                                   letterSpacing: "normal"
                                                 }}
                                               >
-                                                <span className="wixGuard">
-                                                  ​
-                                                </span>
                                               </span>
                                             </p>
                                             <p
@@ -862,9 +853,6 @@ const ResumePage = () => (
                                                         "avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif"
                                                     }}
                                                   >
-                                                    <span className="wixGuard">
-                                                      ​
-                                                    </span>
                                                   </span>
                                                 </span>
                                               </span>
