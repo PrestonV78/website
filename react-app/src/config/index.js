@@ -2,16 +2,6 @@
 const publicUrl = process.env.PUBLIC_URL
 
 const menus = {
-    leftdropdowns : [
-        {
-            label: "                 "
-        }
-    ],
-    rightdropdowns : [
-        {
-            label: "                   "
-        }
-    ],
     topbar : [
         { path: `/`, label: "Home" },
         { path: `/resume`, label: "Resume" },
