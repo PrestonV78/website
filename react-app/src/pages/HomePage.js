@@ -188,423 +188,25 @@ let HomePage = (props) => (
       <div id="main_MF">
         <div id="site-root">
           <div id="masterPage" className="mesh-layout">
-            <div id="SITE_HEADER-placeholder" />
-            <div id="BACKGROUND_GROUP">
-              <div id="BACKGROUND_GROUP_TRANSITION_GROUP">
-                <div
-                  id="pageBackground_klk7a"
-                  data-media-height-override-type=""
-                  data-media-position-override="false"
-                  className="_2v3yk"
-                >
-                  <div
-                    id="bgLayers_pageBackground_klk7a"
-                    data-hook="bgLayers"
-                    className="_3wnIc"
-                  >
-                    <div data-testid="colorUnderlay" className="_3KzuS _3SQN-" />
-                    <div id="bgMedia_pageBackground_klk7a" className="_2GUhU" />
-                    <div data-testid="bgOverlay" className="_1eCSh" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div id="site-root">
-              <div id="masterPage" className="mesh-layout">
-                <main id="PAGES_CONTAINER" tabIndex={-1}>
-                  <div id="SITE_PAGES" className="_1gF1C">
-                    <div id="SITE_PAGES_TRANSITION_GROUP" className="_2YGAo">
-                      <div id="klk7a" className="Ry26q">
-                        <div className="_3CemL" data-testid="page-bg" />
-                        <div className="_3K7uv">
-                          <div id="Containerklk7a" className="_1KV2M">
-                            <div
-                              data-mesh-id="Containerklk7ainlineContent"
-                              data-testid="inline-content"
-                              className=""
-                            >
-                              <div
-                                data-mesh-id="Containerklk7ainlineContent-gridContainer"
-                                data-testid="mesh-container-content"
-                              >
-                                <section id="comp-k0med54x" className="_3d64y">
-                                  <div
-                                    id="bgLayers_comp-k0med54x"
-                                    data-hook="bgLayers"
-                                    className="_3wnIc"
-                                  >
-                                    <div
-                                      data-testid="colorUnderlay"
-                                      className="_3KzuS _3SQN-"
-                                    />
-                                    <div
-                                      id="bgMedia_comp-k0med54x"
-                                      className="_2GUhU"
-                                    />
-                                  </div>
-                                  <div data-testid="columns" className="_1uldx">
-                                    <div id="comp-k0med55d" className="_1vNJf">
-                                      <div
-                                        id="bgLayers_comp-k0med55d"
-                                        data-hook="bgLayers"
-                                        className="_3wnIc"
-                                      >
-                                        <div
-                                          data-testid="colorUnderlay"
-                                          className="_3KzuS _3SQN-"
-                                        />
-                                        <div
-                                          id="bgMedia_comp-k0med55d"
-                                          className="_2GUhU"
-                                        />
-                                      </div>
-                                      <div
-                                        data-mesh-id="comp-k0med55dinlineContent"
-                                        data-testid="inline-content"
-                                        className=""
-                                      >
-                                        <div
-                                          data-mesh-id="comp-k0med55dinlineContent-gridContainer"
-                                          data-testid="mesh-container-content"
-                                        />
-                                      </div>
-                                    </div>
-                                    <div id="comp-k0med55g" className="_1vNJf">
-                                      <div
-                                        id="bgLayers_comp-k0med55g"
-                                        data-hook="bgLayers"
-                                        className="_3wnIc"
-                                      >
-                                        <div
-                                          data-testid="colorUnderlay"
-                                          className="_3KzuS _3SQN-"
-                                        />
-                                        <div
-                                          id="bgMedia_comp-k0med55g"
-                                          className="_2GUhU"
-                                        />
-                                      </div>
-                                      <div
-                                        data-mesh-id="comp-k0med55ginlineContent"
-                                        data-testid="inline-content"
-                                        className=""
-                                      >
-                                        <div
-                                          data-mesh-id="comp-k0med55ginlineContent-gridContainer"
-                                          data-testid="mesh-container-content"
-                                        />
-                                      </div>
-                                    </div>
-                                  </div>
-                                </section>
-                                <section id="comp-k238y4od" className="_3d64y">
-                                  <div
-                                    id="bgLayers_comp-k238y4od"
-                                    data-hook="bgLayers"
-                                    className="_3wnIc"
-                                  >
-                                    <div
-                                      data-testid="colorUnderlay"
-                                      className="_3KzuS _3SQN-"
-                                    />
-                                    <div
-                                      id="bgMedia_comp-k238y4od"
-                                      className="_2GUhU"
-                                    />
-                                  </div>
-                                  <div data-testid="columns" className="_1uldx">
-                                    <div id="comp-k238y4rq" className="_1vNJf">
-                                      <div
-                                        id="bgLayers_comp-k238y4rq"
-                                        data-hook="bgLayers"
-                                        className="_3wnIc"
-                                      >
-                                        <div
-                                          data-testid="colorUnderlay"
-                                          className="_3KzuS _3SQN-"
-                                        />
-                                        <div
-                                          id="bgMedia_comp-k238y4rq"
-                                          className="_2GUhU"
-                                        />
-                                      </div>
-                                      <div
-                                        data-mesh-id="comp-k238y4rqinlineContent"
-                                        data-testid="inline-content"
-                                        className=""
-                                      >
-                                        <div
-                                          data-mesh-id="comp-k238y4rqinlineContent-gridContainer"
-                                          data-testid="mesh-container-content"
-                                        >
-                                          <div id="comp-k0med55z" className="_1ncY2">
-                                            <div
-                                              className="_13Lxq"
-                                              data-testid="container-bg"
-                                            />
-                                            <div
-                                              data-mesh-id="comp-k0med55zinlineContent"
-                                              data-testid="inline-content"
-                                              className=""
-                                            >
-                                              <div
-                                                data-mesh-id="comp-k0med55zinlineContent-gridContainer"
-                                                data-testid="mesh-container-content"
-                                              >
-                                                <div
-                                                  id="comp-k28qs1lv"
-                                                  className="u6LZO"
-                                                >
-                                                  <div
-                                                    data-testid="linkElement"
-                                                    className="_31hZA"
-                                                  >
-                                                    <wix-image
-                                                      id="img_comp-k28qs1lv"
-                                                      className="_1-6YJ -sXIe"
-                                                      data-image-info='{"containerId":"comp-k28qs1lv","targetWidth":205,"targetHeight":205,"displayMode":"fill","imageData":{"width":800,"height":800,"uri":"6ee79a_4ef899bfeae14bd7aaa6c76206e5a9ea~mv2.jpg","name":"1643558914664 (1).jpg","displayMode":"fill","crop":{"x":0,"y":0,"width":800,"height":800,"svgId":"cf545b123b6e4523b228d62bfa0dea9b.svg"}}}'
-                                                      data-bg-effect-name=""
-                                                      data-has-ssr-src=""
-                                                      data-src="https://static.wixstatic.com/media/6ee79a_4ef899bfeae14bd7aaa6c76206e5a9ea~mv2.jpg/v1/fill/w_410,h_410,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1643558914664%20(1).jpg"
-                                                    >
-                                                      <img
-                                                        src="https://static.wixstatic.com/media/6ee79a_4ef899bfeae14bd7aaa6c76206e5a9ea~mv2.jpg/v1/fill/w_410,h_410,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1643558914664%20(1).jpg"
-                                                        alt="1643558914664 (1).jpg"
-                                                        srcSet="https://static.wixstatic.com/media/6ee79a_4ef899bfeae14bd7aaa6c76206e5a9ea~mv2.jpg/v1/fill/w_410,h_410,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1643558914664%20(1).jpg"
-                                                        fetchpriority="high"
-                                                        style={{
-                                                          width: 205,
-                                                          height: 205,
-                                                          objectFit: "cover"
-                                                        }}
-                                                      />
-                                                    </wix-image>
-                                                  </div>
-                                                </div>
-                                                <div
-                                                  id="comp-k0med568"
-                                                  className="_2Hij5 _3bcaz"
-                                                  data-testid="richTextElement"
-                                                >
-                                                  <h1
-                                                    className="font_3"
-                                                    style={{
-                                                      lineHeight: "1.2em",
-                                                      textAlign: "center",
-                                                      fontSize: 27
-                                                    }}
-                                                  >
-                                                    <span className="color_11">
-                                                      <span
-                                                        style={{
-                                                          letterSpacing: "normal"
-                                                        }}
-                                                      >
-                                                        Preston Verling
-                                                      </span>
-                                                    </span>
-                                                  </h1>
-                                                </div>
-                                                <div
-                                                  id="comp-k0med56b"
-                                                  className="_2UdPt"
-                                                />
-                                                <div
-                                                  id="comp-k0med56k"
-                                                  className="_2Hij5 _3bcaz"
-                                                  data-testid="richTextElement"
-                                                >
-                                                  <p
-                                                    className="font_7"
-                                                    style={{
-                                                      lineHeight: "normal",
-                                                      textAlign: "center",
-                                                      fontSize: 17
-                                                    }}
-                                                  >
-                                                    <span className="color_11">
-                                                      <span
-                                                        style={{
-                                                          letterSpacing: "0.25em"
-                                                        }}
-                                                      >
-                                                        SOFTWARE ENGINEER
-                                                      </span>
-                                                    </span>
-                                                  </p>
-                                                </div>
-                                                <div
-                                                  id="comp-k0med56n"
-                                                  className="_1ncY2"
-                                                >
-                                                  <div
-                                                    className="_13Lxq"
-                                                    data-testid="container-bg"
-                                                  />
-                                                  <div
-                                                    data-mesh-id="comp-k0med56ninlineContent"
-                                                    data-testid="inline-content"
-                                                    className=""
-                                                  >
-                                                    <div
-                                                      data-mesh-id="comp-k0med56ninlineContent-gridContainer"
-                                                      data-testid="mesh-container-content"
-                                                    >
-                                                      <div
-                                                        id="comp-k0med56p"
-                                                        className="_2O-Ry"
-                                                      >
-                                                        <ul
-                                                          className="xb9fU"
-                                                          aria-label="Social Bar"
-                                                        >
-                                                          <li
-                                                            id="dataItem-k239ak6y-comp-k0med56p"
-                                                            className="_3lu8e"
-                                                          >
-                                                            <a
-                                                              data-testid="linkElement"
-                                                              href="https://www.linkedin.com/in/preston-verling/"
-                                                              target="_blank"
-                                                              rel="noreferrer noopener"
-                                                              className="_26AQd"
-                                                            >
-                                                              <wix-image
-                                                                id="img_0_comp-k0med56p"
-                                                                className="_1-6YJ uWpzU"
-                                                                data-image-info='{"containerId":"dataItem-k239ak6y-comp-k0med56p","displayMode":"fill","imageData":{"width":200,"height":200,"uri":"6ea5b4a88f0b4f91945b40499aa0af00.png","displayMode":"fill"}}'
-                                                                data-has-bg-scroll-effect=""
-                                                                data-bg-effect-name=""
-                                                                data-has-ssr-src=""
-                                                                data-src="https://static.wixstatic.com/media/6ea5b4a88f0b4f91945b40499aa0af00.png/v1/fill/w_50,h_50,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6ea5b4a88f0b4f91945b40499aa0af00.png"
-                                                              >
-                                                                <img
-                                                                  alt="LinkedIn"
-                                                                  src="https://static.wixstatic.com/media/6ea5b4a88f0b4f91945b40499aa0af00.png/v1/fill/w_50,h_50,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6ea5b4a88f0b4f91945b40499aa0af00.png"
-                                                                  style={{
-                                                                    width: 25,
-                                                                    height: 25,
-                                                                    objectFit: "cover"
-                                                                  }}
-                                                                />
-                                                              </wix-image>
-                                                            </a>
-                                                          </li>
-                                                        </ul>
-                                                      </div>
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </div>
-                                          <div
-                                            id="comp-k0med55k"
-                                            className="_1Q9if _3bcaz"
-                                            data-testid="richTextElement"
-                                          >
-                                            <p
-                                              className="font_0"
-                                              style={{ fontSize: 100 }}
-                                            >
-                                              Hello
-                                            </p>
-                                          </div>
-                                          <div
-                                            id="comp-k0mefjfr"
-                                            className="_1Q9if _3bcaz"
-                                            data-testid="richTextElement"
-                                          >
-                                            <p
-                                              className="font_5"
-                                              style={{ fontSize: 25 }}
-                                            >
-                                              Here's who I am&nbsp;&amp; what I do
-                                            </p>
-                                          </div>
-                                          <div
-                                            className="_2UgQw"
-                                            id="comp-k0med55p"
-                                            aria-disabled="false"
-                                          >
-                                            <a
-                                              data-testid="linkElement"
-                                              href="https://coolpv76.wixsite.com/my-site/resume"
-                                              target="_self"
-                                              className="_1fbEI"
-                                              aria-disabled="false"
-                                            >
-                                              <span className="_1Qjd7">RESUME</span>
-                                            </a>
-                                          </div>
-                                          <div
-                                            className="_2UgQw"
-                                            id="comp-k0med55t"
-                                            aria-disabled="false"
-                                          >
-                                            <a
-                                              data-testid="linkElement"
-                                              href="https://coolpv76.wixsite.com/my-site/projects"
-                                              target="_self"
-                                              className="_1fbEI"
-                                              aria-disabled="false"
-                                            >
-                                              <span className="_1Qjd7">PROJECTS</span>
-                                            </a>
-                                          </div>
-                                          <div
-                                            id="comp-k0med55w"
-                                            className="_2Hij5 _3bcaz"
-                                            data-testid="richTextElement"
-                                          >
-                                            <p
-                                              className="font_7"
-                                              style={{
-                                                lineHeight: "1.5em",
-                                                fontSize: 17
-                                              }}
-                                            >
-                                              Hello, I am Preston Verling. I am a
-                                              Software Engineer from Virginia Tech by
-                                              way of Mantua New Jersey. I am in the
-                                              process of looking for full time
-                                              positions for after my graduation in May
-                                              2023. I am also open to joining any
-                                              projects research or otherwise to use
-                                              and increase my expertise in the field.
-                                            </p>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </section>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </main>
-                <footer tabIndex={-1} id="SITE_FOOTER_WRAPPER">
-                  <div id="SITE_FOOTER" className="_3Fgqs">
-                    <div className="rmFV4" />
-                    <div className="_319u9">
-                      <div className="_3N4he" />
-                      <div className="_1U65c">
+            <main id="PAGES_CONTAINER" tabIndex={-1}>
+              <div id="SITE_PAGES" className="_1gF1C">
+                <div id="SITE_PAGES_TRANSITION_GROUP" className="_2YGAo">
+                  <div id="klk7a" className="Ry26q">
+                    <div className="_3CemL" data-testid="page-bg" />
+                    <div className="_3K7uv">
+                      <div id="Containerklk7a" className="_1KV2M">
                         <div
-                          data-mesh-id="SITE_FOOTERinlineContent"
+                          data-mesh-id="Containerklk7ainlineContent"
                           data-testid="inline-content"
                           className=""
                         >
                           <div
-                            data-mesh-id="SITE_FOOTERinlineContent-gridContainer"
+                            data-mesh-id="Containerklk7ainlineContent-gridContainer"
                             data-testid="mesh-container-content"
                           >
-                            <section id="comp-k0kphh2d" className="_3d64y">
+                            <section id="comp-k0med54x" className="_3d64y">
                               <div
-                                id="bgLayers_comp-k0kphh2d"
+                                id="bgLayers_comp-k0med54x"
                                 data-hook="bgLayers"
                                 className="_3wnIc"
                               >
@@ -612,12 +214,15 @@ let HomePage = (props) => (
                                   data-testid="colorUnderlay"
                                   className="_3KzuS _3SQN-"
                                 />
-                                <div id="bgMedia_comp-k0kphh2d" className="_2GUhU" />
+                                <div
+                                  id="bgMedia_comp-k0med54x"
+                                  className="_2GUhU"
+                                />
                               </div>
                               <div data-testid="columns" className="_1uldx">
-                                <div id="comp-k0kphh32" className="_1vNJf">
+                                <div id="comp-k0med55d" className="_1vNJf">
                                   <div
-                                    id="bgLayers_comp-k0kphh32"
+                                    id="bgLayers_comp-k0med55d"
                                     data-hook="bgLayers"
                                     className="_3wnIc"
                                   >
@@ -626,42 +231,24 @@ let HomePage = (props) => (
                                       className="_3KzuS _3SQN-"
                                     />
                                     <div
-                                      id="bgMedia_comp-k0kphh32"
+                                      id="bgMedia_comp-k0med55d"
                                       className="_2GUhU"
                                     />
                                   </div>
                                   <div
-                                    data-mesh-id="comp-k0kphh32inlineContent"
+                                    data-mesh-id="comp-k0med55dinlineContent"
                                     data-testid="inline-content"
                                     className=""
                                   >
                                     <div
-                                      data-mesh-id="comp-k0kphh32inlineContent-gridContainer"
+                                      data-mesh-id="comp-k0med55dinlineContent-gridContainer"
                                       data-testid="mesh-container-content"
-                                    >
-                                      <div
-                                        id="comp-k2398tck"
-                                        className="_2Hij5 _3bcaz"
-                                        data-testid="richTextElement"
-                                      >
-                                        <p
-                                          className="font_9"
-                                          style={{
-                                            lineHeight: "normal",
-                                            fontSize: 14
-                                          }}
-                                        >
-                                          <span style={{ letterSpacing: "normal" }}>
-                                            © 2023 by Preston Verling.
-                                          </span>
-                                        </p>
-                                      </div>
-                                    </div>
+                                    />
                                   </div>
                                 </div>
-                                <div id="comp-k0kpi3mu" className="_1vNJf">
+                                <div id="comp-k0med55g" className="_1vNJf">
                                   <div
-                                    id="bgLayers_comp-k0kpi3mu"
+                                    id="bgLayers_comp-k0med55g"
                                     data-hook="bgLayers"
                                     className="_3wnIc"
                                   >
@@ -670,140 +257,299 @@ let HomePage = (props) => (
                                       className="_3KzuS _3SQN-"
                                     />
                                     <div
-                                      id="bgMedia_comp-k0kpi3mu"
+                                      id="bgMedia_comp-k0med55g"
                                       className="_2GUhU"
                                     />
                                   </div>
                                   <div
-                                    data-mesh-id="comp-k0kpi3muinlineContent"
+                                    data-mesh-id="comp-k0med55ginlineContent"
                                     data-testid="inline-content"
                                     className=""
                                   >
                                     <div
-                                      data-mesh-id="comp-k0kpi3muinlineContent-gridContainer"
+                                      data-mesh-id="comp-k0med55ginlineContent-gridContainer"
+                                      data-testid="mesh-container-content"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            </section>
+                            <section id="comp-k238y4od" className="_3d64y">
+                              <div
+                                id="bgLayers_comp-k238y4od"
+                                data-hook="bgLayers"
+                                className="_3wnIc"
+                              >
+                                <div
+                                  data-testid="colorUnderlay"
+                                  className="_3KzuS _3SQN-"
+                                />
+                                <div
+                                  id="bgMedia_comp-k238y4od"
+                                  className="_2GUhU"
+                                />
+                              </div>
+                              <div data-testid="columns" className="_1uldx">
+                                <div id="comp-k238y4rq" className="_1vNJf">
+                                  <div
+                                    id="bgLayers_comp-k238y4rq"
+                                    data-hook="bgLayers"
+                                    className="_3wnIc"
+                                  >
+                                    <div
+                                      data-testid="colorUnderlay"
+                                      className="_3KzuS _3SQN-"
+                                    />
+                                    <div
+                                      id="bgMedia_comp-k238y4rq"
+                                      className="_2GUhU"
+                                    />
+                                  </div>
+                                  <div
+                                    data-mesh-id="comp-k238y4rqinlineContent"
+                                    data-testid="inline-content"
+                                    className=""
+                                  >
+                                    <div
+                                      data-mesh-id="comp-k238y4rqinlineContent-gridContainer"
                                       data-testid="mesh-container-content"
                                     >
-                                      <div
-                                        id="comp-k0kuqn3x"
-                                        className="_1Q9if _3bcaz"
-                                        data-testid="richTextElement"
-                                      >
-                                        <p
-                                          className="font_8"
-                                          style={{
-                                            textAlign: "center",
-                                            fontSize: 14
-                                          }}
+                                      <div id="comp-k0med55z" className="_1ncY2">
+                                        <div
+                                          className="_13Lxq"
+                                          data-testid="container-bg"
+                                        />
+                                        <div
+                                          data-mesh-id="comp-k0med55zinlineContent"
+                                          data-testid="inline-content"
+                                          className=""
                                         >
-                                          Call
-                                        </p>
-                                      </div>
-                                      <div
-                                        id="comp-k0kupecu"
-                                        className="_2Hij5 _3bcaz"
-                                        data-testid="richTextElement"
-                                      >
-                                        <p
-                                          className="font_9"
-                                          style={{
-                                            textAlign: "center",
-                                            lineHeight: "normal",
-                                            fontSize: 14
-                                          }}
-                                        >
-                                          <span style={{ letterSpacing: "normal" }}>
-                                            856-906-6366
-                                          </span>
-                                        </p>
-                                      </div>
-                                      <div
-                                        id="comp-k0kuuwv2"
-                                        className="_1Q9if _3bcaz"
-                                        data-testid="richTextElement"
-                                      >
-                                        <p
-                                          className="font_8"
-                                          style={{
-                                            textAlign: "center",
-                                            fontSize: 14
-                                          }}
-                                        >
-                                          Write
-                                        </p>
-                                      </div>
-                                      <div
-                                        id="comp-k0kuuwvk"
-                                        className="_2Hij5 _3bcaz"
-                                        data-testid="richTextElement"
-                                      >
-                                        <p
-                                          className="font_9"
-                                          style={{
-                                            textAlign: "center",
-                                            lineHeight: "normal",
-                                            fontSize: 14
-                                          }}
-                                        >
-                                          <span style={{ letterSpacing: "normal" }}>
-                                            <a
-                                              data-auto-recognition="true"
-                                              href="mailto:prestonv@vt.edu"
-                                            >
-                                              prestonv@vt.edu
-                                            </a>
-                                          </span>
-                                        </p>
-                                      </div>
-                                      <div
-                                        id="comp-k0kuvsds"
-                                        className="_1Q9if _3bcaz"
-                                        data-testid="richTextElement"
-                                      >
-                                        <p
-                                          className="font_8"
-                                          style={{
-                                            textAlign: "center",
-                                            fontSize: 14
-                                          }}
-                                        >
-                                          Follow
-                                        </p>
-                                      </div>
-                                      <div id="comp-k0kux795" className="_2O-Ry">
-                                        <ul className="xb9fU" aria-label="Social Bar">
-                                          <li
-                                            id="dataItem-k239a7bq-comp-k0kux795"
-                                            className="_3lu8e"
+                                          <div
+                                            data-mesh-id="comp-k0med55zinlineContent-gridContainer"
+                                            data-testid="mesh-container-content"
                                           >
-                                            <a
-                                              data-testid="linkElement"
-                                              href="https://www.linkedin.com/in/preston-verling/"
-                                              target="_blank"
-                                              rel="noreferrer noopener"
-                                              className="_26AQd"
+                                            <div
+                                              id="comp-k28qs1lv"
+                                              className="u6LZO"
                                             >
-                                              <wix-image
-                                                id="img_0_comp-k0kux795"
-                                                className="_1-6YJ uWpzU"
-                                                data-image-info='{"containerId":"dataItem-k239a7bq-comp-k0kux795","displayMode":"fill","imageData":{"width":200,"height":200,"uri":"6ea5b4a88f0b4f91945b40499aa0af00.png","displayMode":"fill"}}'
-                                                data-has-bg-scroll-effect=""
-                                                data-bg-effect-name=""
-                                                data-has-ssr-src=""
-                                                data-src="https://static.wixstatic.com/media/6ea5b4a88f0b4f91945b40499aa0af00.png/v1/fill/w_38,h_38,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6ea5b4a88f0b4f91945b40499aa0af00.png"
+                                              <div
+                                                data-testid="linkElement"
+                                                className="_31hZA"
                                               >
-                                                <img
-                                                  alt="LinkedIn"
-                                                  src="https://static.wixstatic.com/media/6ea5b4a88f0b4f91945b40499aa0af00.png/v1/fill/w_38,h_38,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6ea5b4a88f0b4f91945b40499aa0af00.png"
-                                                  style={{
-                                                    width: 19,
-                                                    height: 19,
-                                                    objectFit: "cover"
-                                                  }}
-                                                />
-                                              </wix-image>
-                                            </a>
-                                          </li>
-                                        </ul>
+                                                <wix-image
+                                                  id="img_comp-k28qs1lv"
+                                                  className="_1-6YJ -sXIe"
+                                                  data-image-info='{"containerId":"comp-k28qs1lv","targetWidth":205,"targetHeight":205,"displayMode":"fill","imageData":{"width":800,"height":800,"uri":"6ee79a_4ef899bfeae14bd7aaa6c76206e5a9ea~mv2.jpg","name":"1643558914664 (1).jpg","displayMode":"fill","crop":{"x":0,"y":0,"width":800,"height":800,"svgId":"cf545b123b6e4523b228d62bfa0dea9b.svg"}}}'
+                                                  data-bg-effect-name=""
+                                                  data-has-ssr-src=""
+                                                  data-src="https://static.wixstatic.com/media/6ee79a_4ef899bfeae14bd7aaa6c76206e5a9ea~mv2.jpg/v1/fill/w_410,h_410,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1643558914664%20(1).jpg"
+                                                >
+                                                  <img
+                                                    src="https://static.wixstatic.com/media/6ee79a_4ef899bfeae14bd7aaa6c76206e5a9ea~mv2.jpg/v1/fill/w_410,h_410,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1643558914664%20(1).jpg"
+                                                    alt="1643558914664 (1).jpg"
+                                                    srcSet="https://static.wixstatic.com/media/6ee79a_4ef899bfeae14bd7aaa6c76206e5a9ea~mv2.jpg/v1/fill/w_410,h_410,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1643558914664%20(1).jpg"
+                                                    fetchpriority="high"
+                                                    style={{
+                                                      width: 205,
+                                                      height: 205,
+                                                      objectFit: "cover"
+                                                    }}
+                                                  />
+                                                </wix-image>
+                                              </div>
+                                            </div>
+                                            <div
+                                              id="comp-k0med568"
+                                              className="_2Hij5 _3bcaz"
+                                              data-testid="richTextElement"
+                                            >
+                                              <h1
+                                                className="font_3"
+                                                style={{
+                                                  lineHeight: "1.2em",
+                                                  textAlign: "center",
+                                                  fontSize: 27
+                                                }}
+                                              >
+                                                <span className="color_11">
+                                                  <span
+                                                    style={{
+                                                      letterSpacing: "normal"
+                                                    }}
+                                                  >
+                                                    Preston Verling
+                                                  </span>
+                                                </span>
+                                              </h1>
+                                            </div>
+                                            <div
+                                              id="comp-k0med56b"
+                                              className="_2UdPt"
+                                            />
+                                            <div
+                                              id="comp-k0med56k"
+                                              className="_2Hij5 _3bcaz"
+                                              data-testid="richTextElement"
+                                            >
+                                              <p
+                                                className="font_7"
+                                                style={{
+                                                  lineHeight: "normal",
+                                                  textAlign: "center",
+                                                  fontSize: 17
+                                                }}
+                                              >
+                                                <span className="color_11">
+                                                  <span
+                                                    style={{
+                                                      letterSpacing: "0.25em"
+                                                    }}
+                                                  >
+                                                    SOFTWARE ENGINEER
+                                                  </span>
+                                                </span>
+                                              </p>
+                                            </div>
+                                            <div
+                                              id="comp-k0med56n"
+                                              className="_1ncY2"
+                                            >
+                                              <div
+                                                className="_13Lxq"
+                                                data-testid="container-bg"
+                                              />
+                                              <div
+                                                data-mesh-id="comp-k0med56ninlineContent"
+                                                data-testid="inline-content"
+                                                className=""
+                                              >
+                                                <div
+                                                  data-mesh-id="comp-k0med56ninlineContent-gridContainer"
+                                                  data-testid="mesh-container-content"
+                                                >
+                                                  <div
+                                                    id="comp-k0med56p"
+                                                    className="_2O-Ry"
+                                                  >
+                                                    <ul
+                                                      className="xb9fU"
+                                                      aria-label="Social Bar"
+                                                    >
+                                                      <li
+                                                        id="dataItem-k239ak6y-comp-k0med56p"
+                                                        className="_3lu8e"
+                                                      >
+                                                        <a
+                                                          data-testid="linkElement"
+                                                          href="https://www.linkedin.com/in/preston-verling/"
+                                                          target="_blank"
+                                                          rel="noreferrer noopener"
+                                                          className="_26AQd"
+                                                        >
+                                                          <wix-image
+                                                            id="img_0_comp-k0med56p"
+                                                            className="_1-6YJ uWpzU"
+                                                            data-image-info='{"containerId":"dataItem-k239ak6y-comp-k0med56p","displayMode":"fill","imageData":{"width":200,"height":200,"uri":"6ea5b4a88f0b4f91945b40499aa0af00.png","displayMode":"fill"}}'
+                                                            data-has-bg-scroll-effect=""
+                                                            data-bg-effect-name=""
+                                                            data-has-ssr-src=""
+                                                            data-src="https://static.wixstatic.com/media/6ea5b4a88f0b4f91945b40499aa0af00.png/v1/fill/w_50,h_50,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6ea5b4a88f0b4f91945b40499aa0af00.png"
+                                                          >
+                                                            <img
+                                                              alt="LinkedIn"
+                                                              src="https://static.wixstatic.com/media/6ea5b4a88f0b4f91945b40499aa0af00.png/v1/fill/w_50,h_50,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6ea5b4a88f0b4f91945b40499aa0af00.png"
+                                                              style={{
+                                                                width: 25,
+                                                                height: 25,
+                                                                objectFit: "cover"
+                                                              }}
+                                                            />
+                                                          </wix-image>
+                                                        </a>
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div
+                                        id="comp-k0med55k"
+                                        className="_1Q9if _3bcaz"
+                                        data-testid="richTextElement"
+                                      >
+                                        <p
+                                          className="font_0"
+                                          style={{ fontSize: 100 }}
+                                        >
+                                          Hello
+                                        </p>
+                                      </div>
+                                      <div
+                                        id="comp-k0mefjfr"
+                                        className="_1Q9if _3bcaz"
+                                        data-testid="richTextElement"
+                                      >
+                                        <p
+                                          className="font_5"
+                                          style={{ fontSize: 25 }}
+                                        >
+                                          Here's who I am&nbsp;&amp; what I do
+                                        </p>
+                                      </div>
+                                      <div
+                                        className="_2UgQw"
+                                        id="comp-k0med55p"
+                                        aria-disabled="false"
+                                      >
+                                        <a
+                                          data-testid="linkElement"
+                                          href="https://lively-plant-0664c6e10.1.azurestaticapps.net/resume"
+                                          target="_self"
+                                          className="_1fbEI"
+                                          aria-disabled="false"
+                                        >
+                                          <span className="_1Qjd7">RESUME</span>
+                                        </a>
+                                      </div>
+                                      <div
+                                        className="_2UgQw"
+                                        id="comp-k0med55t"
+                                        aria-disabled="false"
+                                      >
+                                        <a
+                                          data-testid="linkElement"
+                                          href="https://lively-plant-0664c6e10.1.azurestaticapps.net/projects"
+                                          target="_self"
+                                          className="_1fbEI"
+                                          aria-disabled="false"
+                                        >
+                                          <span className="_1Qjd7">PROJECTS</span>
+                                        </a>
+                                      </div>
+                                      <div
+                                        id="comp-k0med55w"
+                                        className="_2Hij5 _3bcaz"
+                                        data-testid="richTextElement"
+                                      >
+                                        <p
+                                          className="font_7"
+                                          style={{
+                                            lineHeight: "1.5em",
+                                            fontSize: 17
+                                          }}
+                                        >
+                                          Hello, I am Preston Verling. I am a
+                                          Software Engineer from Virginia Tech by
+                                          way of Mantua New Jersey. I am in the
+                                          process of looking for full time
+                                          positions for after my graduation in May
+                                          2023. I am also open to joining any
+                                          projects research or otherwise to use
+                                          and increase my expertise in the field.
+                                        </p>
                                       </div>
                                     </div>
                                   </div>
@@ -815,19 +561,248 @@ let HomePage = (props) => (
                       </div>
                     </div>
                   </div>
-                </footer>
+                </div>
               </div>
-            </div>
-            <div
-              id="SCROLL_TO_BOTTOM"
-              className="qhwIj ignore-focus undefined"
-              tabIndex={-1}
-              role="region"
-              aria-label="bottom of page"
-            >
-              &nbsp;
-            </div>
+            </main>
+            <footer tabIndex={-1} id="SITE_FOOTER_WRAPPER">
+              <div id="SITE_FOOTER" className="_3Fgqs">
+                <div className="rmFV4" />
+                <div className="_319u9">
+                  <div className="_3N4he" />
+                  <div className="_1U65c">
+                    <div
+                      data-mesh-id="SITE_FOOTERinlineContent"
+                      data-testid="inline-content"
+                      className=""
+                    >
+                      <div
+                        data-mesh-id="SITE_FOOTERinlineContent-gridContainer"
+                        data-testid="mesh-container-content"
+                      >
+                        <section id="comp-k0kphh2d" className="_3d64y">
+                          <div
+                            id="bgLayers_comp-k0kphh2d"
+                            data-hook="bgLayers"
+                            className="_3wnIc"
+                          >
+                            <div
+                              data-testid="colorUnderlay"
+                              className="_3KzuS _3SQN-"
+                            />
+                            <div id="bgMedia_comp-k0kphh2d" className="_2GUhU" />
+                          </div>
+                          <div data-testid="columns" className="_1uldx">
+                            <div id="comp-k0kphh32" className="_1vNJf">
+                              <div
+                                id="bgLayers_comp-k0kphh32"
+                                data-hook="bgLayers"
+                                className="_3wnIc"
+                              >
+                                <div
+                                  data-testid="colorUnderlay"
+                                  className="_3KzuS _3SQN-"
+                                />
+                                <div
+                                  id="bgMedia_comp-k0kphh32"
+                                  className="_2GUhU"
+                                />
+                              </div>
+                              <div
+                                data-mesh-id="comp-k0kphh32inlineContent"
+                                data-testid="inline-content"
+                                className=""
+                              >
+                                <div
+                                  data-mesh-id="comp-k0kphh32inlineContent-gridContainer"
+                                  data-testid="mesh-container-content"
+                                >
+                                  <div
+                                    id="comp-k2398tck"
+                                    className="_2Hij5 _3bcaz"
+                                    data-testid="richTextElement"
+                                  >
+                                    <p
+                                      className="font_9"
+                                      style={{
+                                        lineHeight: "normal",
+                                        fontSize: 14
+                                      }}
+                                    >
+                                      <span style={{ letterSpacing: "normal" }}>
+                                        © 2023 by Preston Verling.
+                                      </span>
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div id="comp-k0kpi3mu" className="_1vNJf">
+                              <div
+                                id="bgLayers_comp-k0kpi3mu"
+                                data-hook="bgLayers"
+                                className="_3wnIc"
+                              >
+                                <div
+                                  data-testid="colorUnderlay"
+                                  className="_3KzuS _3SQN-"
+                                />
+                                <div
+                                  id="bgMedia_comp-k0kpi3mu"
+                                  className="_2GUhU"
+                                />
+                              </div>
+                              <div
+                                data-mesh-id="comp-k0kpi3muinlineContent"
+                                data-testid="inline-content"
+                                className=""
+                              >
+                                <div
+                                  data-mesh-id="comp-k0kpi3muinlineContent-gridContainer"
+                                  data-testid="mesh-container-content"
+                                >
+                                  <div
+                                    id="comp-k0kuqn3x"
+                                    className="_1Q9if _3bcaz"
+                                    data-testid="richTextElement"
+                                  >
+                                    <p
+                                      className="font_8"
+                                      style={{
+                                        textAlign: "center",
+                                        fontSize: 14
+                                      }}
+                                    >
+                                      Call
+                                    </p>
+                                  </div>
+                                  <div
+                                    id="comp-k0kupecu"
+                                    className="_2Hij5 _3bcaz"
+                                    data-testid="richTextElement"
+                                  >
+                                    <p
+                                      className="font_9"
+                                      style={{
+                                        textAlign: "center",
+                                        lineHeight: "normal",
+                                        fontSize: 14
+                                      }}
+                                    >
+                                      <span style={{ letterSpacing: "normal" }}>
+                                        856-906-6366
+                                      </span>
+                                    </p>
+                                  </div>
+                                  <div
+                                    id="comp-k0kuuwv2"
+                                    className="_1Q9if _3bcaz"
+                                    data-testid="richTextElement"
+                                  >
+                                    <p
+                                      className="font_8"
+                                      style={{
+                                        textAlign: "center",
+                                        fontSize: 14
+                                      }}
+                                    >
+                                      Write
+                                    </p>
+                                  </div>
+                                  <div
+                                    id="comp-k0kuuwvk"
+                                    className="_2Hij5 _3bcaz"
+                                    data-testid="richTextElement"
+                                  >
+                                    <p
+                                      className="font_9"
+                                      style={{
+                                        textAlign: "center",
+                                        lineHeight: "normal",
+                                        fontSize: 14
+                                      }}
+                                    >
+                                      <span style={{ letterSpacing: "normal" }}>
+                                        <a
+                                          data-auto-recognition="true"
+                                          href="mailto:prestonv@vt.edu"
+                                        >
+                                          prestonv@vt.edu
+                                        </a>
+                                      </span>
+                                    </p>
+                                  </div>
+                                  <div
+                                    id="comp-k0kuvsds"
+                                    className="_1Q9if _3bcaz"
+                                    data-testid="richTextElement"
+                                  >
+                                    <p
+                                      className="font_8"
+                                      style={{
+                                        textAlign: "center",
+                                        fontSize: 14
+                                      }}
+                                    >
+                                      Follow
+                                    </p>
+                                  </div>
+                                  <div id="comp-k0kux795" className="_2O-Ry">
+                                    <ul className="xb9fU" aria-label="Social Bar">
+                                      <li
+                                        id="dataItem-k239a7bq-comp-k0kux795"
+                                        className="_3lu8e"
+                                      >
+                                        <a
+                                          data-testid="linkElement"
+                                          href="https://www.linkedin.com/in/preston-verling/"
+                                          target="_blank"
+                                          rel="noreferrer noopener"
+                                          className="_26AQd"
+                                        >
+                                          <wix-image
+                                            id="img_0_comp-k0kux795"
+                                            className="_1-6YJ uWpzU"
+                                            data-image-info='{"containerId":"dataItem-k239a7bq-comp-k0kux795","displayMode":"fill","imageData":{"width":200,"height":200,"uri":"6ea5b4a88f0b4f91945b40499aa0af00.png","displayMode":"fill"}}'
+                                            data-has-bg-scroll-effect=""
+                                            data-bg-effect-name=""
+                                            data-has-ssr-src=""
+                                            data-src="https://static.wixstatic.com/media/6ea5b4a88f0b4f91945b40499aa0af00.png/v1/fill/w_38,h_38,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6ea5b4a88f0b4f91945b40499aa0af00.png"
+                                          >
+                                            <img
+                                              alt="LinkedIn"
+                                              src="https://static.wixstatic.com/media/6ea5b4a88f0b4f91945b40499aa0af00.png/v1/fill/w_38,h_38,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6ea5b4a88f0b4f91945b40499aa0af00.png"
+                                              style={{
+                                                width: 19,
+                                                height: 19,
+                                                objectFit: "cover"
+                                              }}
+                                            />
+                                          </wix-image>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </footer>
           </div>
+        </div>
+        <div
+          id="SCROLL_TO_BOTTOM"
+          className="qhwIj ignore-focus undefined"
+          tabIndex={-1}
+          role="region"
+          aria-label="bottom of page"
+        >
+          &nbsp;
         </div>
       </div>
     </div>
