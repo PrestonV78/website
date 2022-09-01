@@ -56,26 +56,6 @@ const ResumePage = () => (
   </pages-css>
   <div id="SITE_CONTAINER">
     <div id="main_MF">
-      {/* <div id="BACKGROUND_GROUP">
-        <div id="BACKGROUND_GROUP_TRANSITION_GROUP">
-          <div
-            id="pageBackground_klk7a"
-            data-media-height-override-type=""
-            data-media-position-override="false"
-            className="_2v3yk"
-          >
-            <div
-              id="bgLayers_pageBackground_klk7a"
-              data-hook="bgLayers"
-              className="_3wnIc"
-            >
-              <div data-testid="colorUnderlay" className="_3KzuS _3SQN-" />
-              <div id="bgMedia_pageBackground_klk7a" className="_2GUhU" />
-              <div data-testid="bgOverlay" className="_1eCSh" />
-            </div>
-          </div>
-        </div>
-      </div> */}
       <div id="site-root">
         <div id="masterPage" className="mesh-layout">
           <div id="SITE_HEADER-placeholder" />
@@ -711,7 +691,7 @@ const ResumePage = () => (
                                             </p>
                                           </div>
                                           <div
-                                            id="comp-k23bnzje"
+                                            id="comp-k0qh73xl"
                                             className="_2Hij5 _3bcaz"
                                             data-testid="richTextElement"
                                           >
