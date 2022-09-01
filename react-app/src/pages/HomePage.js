@@ -7,6 +7,9 @@ import config from '../config';
 import ProjectsPage from '../pages/ProjectsPage';
 import ResumePage from '../pages/ResumePage';
 
+const resumeURL = `${publicUrl}/resume`
+const projectsURL = `${publicUrl}/resume`
+
 let HomePage = (props) => (
   <>
     <meta charSet="utf-8" />
@@ -510,7 +513,7 @@ let HomePage = (props) => (
                                       >
                                         <a
                                           data-testid="linkElement"
-                                          href= {<ResumePage />}
+                                          href= {resumeURL}
                                           target="_self"
                                           className="_1fbEI"
                                           aria-disabled="false"
@@ -525,7 +528,7 @@ let HomePage = (props) => (
                                       >
                                         <a
                                           data-testid="linkElement"
-                                          href= {<ProjectsPage />}
+                                          href= {projectsURL}
                                           target="_self"
                                           className="_1fbEI"
                                           aria-disabled="false"

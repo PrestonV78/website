@@ -115,7 +115,7 @@ const ResumePage = () => (
                                     data-mesh-id="comp-k24altl9inlineContent-gridContainer"
                                     data-testid="mesh-container-content"
                                   >
-                                    <div id="comp-k0qh73ww" className="_1ncY2">
+                                    {/* <div id="comp-k0qh73ww" className="_1ncY2">
                                       <div
                                         className="_13Lxq"
                                         data-testid="container-bg"
@@ -130,7 +130,7 @@ const ResumePage = () => (
                                           data-testid="mesh-container-content"
                                         />
                                       </div>
-                                    </div>
+                                    </div> */}
                                     <div
                                       id="comp-k0qh73wx"
                                       className="_2Hij5 _3bcaz"
