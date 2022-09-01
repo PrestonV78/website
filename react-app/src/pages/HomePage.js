@@ -514,7 +514,7 @@ let HomePage = (props) => (
                                         <a
                                           data-testid="linkElement"
                                           href= {resumeURL}
-                                          target="_self"
+                                          target="_blank"
                                           className="_1fbEI"
                                           aria-disabled="false"
                                         >
@@ -529,7 +529,7 @@ let HomePage = (props) => (
                                         <a
                                           data-testid="linkElement"
                                           href= {projectsURL}
-                                          target="_self"
+                                          target="_blank"
                                           className="_1fbEI"
                                           aria-disabled="false"
                                         >
