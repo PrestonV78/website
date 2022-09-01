@@ -993,7 +993,7 @@ const ResumePage = () => (
                                             >
                                               <span style={{ fontSize: 48 }}>
                                                 <span
-                                                  style={{ color: "#FFFFFF" }}
+                                                  style={{ color: "#9926c2" }}
                                                 >
                                                   <span
                                                     style={{
@@ -1186,7 +1186,7 @@ const ResumePage = () => (
                                             >
                                               <span style={{ fontSize: 16 }}>
                                                 <span
-                                                  style={{ color: "#FFFFFF" }}
+                                                  style={{ color: "#9926c2" }}
                                                 >
                                                   Tools
                                                 </span>
