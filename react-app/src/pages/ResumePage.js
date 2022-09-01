@@ -78,73 +78,6 @@ const ResumePage = () => (
       </div>
       <div id="site-root">
         <div id="masterPage" className="mesh-layout">
-          <header tabIndex={-1} id="SITE_HEADER_WRAPPER">
-            <div id="SITE_HEADER" className="ZW5SX">
-              <div className="_2o25M">
-                <div className="_1nRb9" />
-              </div>
-              <div className="_38XI2">
-                <div className="_2P6JN">
-                  <div className="_1dlfY" />
-                </div>
-                <div className="_1_UPn">
-                  <div
-                    data-mesh-id="SITE_HEADERinlineContent"
-                    data-testid="inline-content"
-                    className=""
-                  >
-                    <div
-                      data-mesh-id="SITE_HEADERinlineContent-gridContainer"
-                      data-testid="mesh-container-content"
-                    >
-                      <section id="comp-k99pg7y4" className="_3d64y">
-                        <div
-                          id="bgLayers_comp-k99pg7y4"
-                          data-hook="bgLayers"
-                          className="_3wnIc"
-                        >
-                          <div
-                            data-testid="colorUnderlay"
-                            className="_3KzuS _3SQN-"
-                          />
-                          <div id="bgMedia_comp-k99pg7y4" className="_2GUhU" />
-                        </div>
-                        <div data-testid="columns" className="_1uldx">
-                          <div id="comp-k99pgiwx" className="_1vNJf">
-                            <div
-                              id="bgLayers_comp-k99pgiwx"
-                              data-hook="bgLayers"
-                              className="_3wnIc"
-                            >
-                              <div
-                                data-testid="colorUnderlay"
-                                className="_3KzuS _3SQN-"
-                              />
-                              <div
-                                id="bgMedia_comp-k99pgiwx"
-                                className="_2GUhU"
-                              />
-                            </div>
-                            <div
-                              data-mesh-id="comp-k99pgiwxinlineContent"
-                              data-testid="inline-content"
-                              className=""
-                            >
-                              <div
-                                data-mesh-id="comp-k99pgiwxinlineContent-gridContainer"
-                                data-testid="mesh-container-content"
-                              >
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </header>
           <div id="SITE_HEADER-placeholder" />
           <main id="PAGES_CONTAINER" tabIndex={-1}>
             <div id="SITE_PAGES" className="_1gF1C">
@@ -277,7 +210,7 @@ const ResumePage = () => (
                                           fontSize: 25
                                         }}
                                       >
-                                        <span className="color_11">
+                                        <span style={{ color: "#8015e8" }}>
                                           <span
                                             style={{
                                               textShadow:
