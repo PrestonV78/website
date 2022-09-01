@@ -4,11 +4,12 @@ const publicUrl = process.env.PUBLIC_URL
 const menus = {
     leftdropdowns : [
         {
+            label: "                 "
         }
     ],
     rightdropdowns : [
         {
-
+            label: "                   "
         }
     ],
     topbar : [
