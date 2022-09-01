@@ -234,7 +234,7 @@ const ResumePage = () => (
                                                 fontSize: 20
                                               }}
                                             >
-                                              <span className="color_28">
+                                              <span style={{ color: "#010203" }}>
                                                 <span
                                                   style={{
                                                     letterSpacing: "normal"
@@ -400,7 +400,7 @@ const ResumePage = () => (
                                                 fontSize: 20
                                               }}
                                             >
-                                              <span className="color_28">
+                                              <span style={{ color: "#010203" }}>
                                                 <span
                                                   style={{
                                                     letterSpacing: "normal"
@@ -643,7 +643,7 @@ const ResumePage = () => (
                                                 fontSize: 20
                                               }}
                                             >
-                                              <span className="color_28">
+                                              <span style={{ color: "#010203" }}>
                                                 <span
                                                   style={{
                                                     letterSpacing: "normal"
@@ -1027,7 +1027,7 @@ const ResumePage = () => (
                                               }}
                                             >
                                               <span style={{ fontSize: 30 }}>
-                                                <span className="color_28">
+                                                <span style={{ color: "#010203" }}>
                                                   <span
                                                     style={{
                                                       letterSpacing: "normal"
@@ -1120,7 +1120,7 @@ const ResumePage = () => (
                                                 fontSize: 25
                                               }}
                                             >
-                                              <span className="color_28">
+                                              <span style={{ color: "#010203" }}>
                                                 <span
                                                   style={{
                                                     letterSpacing: "normal"
