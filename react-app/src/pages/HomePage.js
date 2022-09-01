@@ -504,6 +504,36 @@ let HomePage = (props) => (
                                         </p>
                                       </div>
                                       <div
+                                        className="_2UgQw"
+                                        id="comp-k0med55p"
+                                        aria-disabled="false"
+                                      >
+                                        <a
+                                          data-testid="linkElement"
+                                          href= {<ResumePage />}
+                                          target="_self"
+                                          className="_1fbEI"
+                                          aria-disabled="false"
+                                        >
+                                          <span className="_1Qjd7">RESUME</span>
+                                        </a>
+                                      </div>
+                                      <div
+                                        className="_2UgQw"
+                                        id="comp-k0med55t"
+                                        aria-disabled="false"
+                                      >
+                                        <a
+                                          data-testid="linkElement"
+                                          href= {<ProjectsPage />}
+                                          target="_self"
+                                          className="_1fbEI"
+                                          aria-disabled="false"
+                                        >
+                                          <span className="_1Qjd7">PROJECTS</span>
+                                        </a>
+                                      </div>
+                                      <div
                                         id="comp-k0med55w"
                                         className="_2Hij5 _3bcaz"
                                         data-testid="richTextElement"
