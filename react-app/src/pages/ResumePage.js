@@ -166,7 +166,7 @@ const ResumePage = () => (
                                     >
                                       <a
                                         data-testid="linkElement"
-                                        href="https://6e1b4018-ad8d-47bf-97cd-0ac750f3165c.filesusr.com/ugd/6ee79a_1e2b17a66a3b42c68f916d6f14d145fe.pdf"
+                                        href="https://s3.amazonaws.com/handshake.production/documents/documents/031/924/761/original/Resume.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2HSNSGACXF6KKT2H%2F20220901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220901T133541Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=01a0ea88c4ffcf16057367792fe0688f7e57cfd7e3d6f7f058defe3cda03f10f"
                                         target="_blank"
                                         className="_1fbEI"
                                         aria-disabled="false"
