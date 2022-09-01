@@ -7,8 +7,8 @@ import config from '../config';
 import ProjectsPage from '../pages/ProjectsPage';
 import ResumePage from '../pages/ResumePage';
 
-const resumeURL = `${publicUrl}/resume`
-const projectsURL = `${publicUrl}/resume`
+const resumeURL = `${config.publicUrl}/resume`
+const projectsURL = `${config.publicUrl}/resume`
 
 let HomePage = (props) => (
   <>
