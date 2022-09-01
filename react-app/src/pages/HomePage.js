@@ -3,6 +3,9 @@ import { Container, Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import logo from '../images/logo.svg';
 import logo_name from '../images/logo_name.png';
+import config from '../config';
+import ProjectsPage from '../pages/ProjectsPage';
+import ResumePage from '../pages/ResumePage';
 
 let HomePage = (props) => (
   <>
@@ -506,7 +509,7 @@ let HomePage = (props) => (
                                       >
                                         <a
                                           data-testid="linkElement"
-                                          href="https://lively-plant-0664c6e10.1.azurestaticapps.net/resume"
+                                          href= {<ResumePage />}
                                           target="_self"
                                           className="_1fbEI"
                                           aria-disabled="false"
@@ -521,7 +524,7 @@ let HomePage = (props) => (
                                       >
                                         <a
                                           data-testid="linkElement"
-                                          href="https://lively-plant-0664c6e10.1.azurestaticapps.net/projects"
+                                          href= {<ProjectsPage />}
                                           target="_self"
                                           className="_1fbEI"
                                           aria-disabled="false"
