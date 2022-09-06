@@ -68,7 +68,7 @@ const NavBar = (props) => {
         <NavbarToggler onClick={toggle} />
         <NavbarBrand to="/">
           {/* {props.branding} */}
-          <img width="70px" height="auto" className="img-responsive" src="/logo.svg"  alt="" />{' '}
+          <img width="100px" height="auto" className="img-responsive" src="/logo.svg"  alt="" />{' '}
           {/* <img
             src="logo.svg"
             width="30"
