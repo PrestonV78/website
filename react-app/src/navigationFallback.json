@@ -1,0 +1,20 @@
+{
+    "trailingSlash": "never",
+    "routes": [
+      {
+        "route": "/index.html"
+      },
+      {
+        "route": "/resume.html"
+      },
+      {
+        "route": "/home.html"
+      },
+      {
+        "route": "/contact.html"
+      },
+      {
+        "route": "/projects.html"
+      }
+    ]
+}
