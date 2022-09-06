@@ -64,13 +64,13 @@ const NavBar = (props) => {
 
   return (
     <div>
-      <Navbar expand="lg" color="dark">
+      <Navbar expand="lg" color="dark" variant="dark">
         <NavbarToggler onClick={toggle} />
         <NavbarBrand to="/">
           {/* {props.branding} */}
           <img
             alt=""
-            src="Logo.svg"
+            src="logo.svg"
             width="30"
             height="30"
             className="d-inline-block align-top"
