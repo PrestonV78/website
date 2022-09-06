@@ -64,12 +64,11 @@ const NavBar = (props) => {
 
   return (
     <div>
-      <Navbar expand="lg" color="dark" variant="dark">
+      <Navbar expand="lg" color="dark" variant="light">
         <NavbarToggler onClick={toggle} />
         <NavbarBrand to="/">
           {/* {props.branding} */}
           <img
-            alt=""
             src="logo.svg"
             width="30"
             height="30"
