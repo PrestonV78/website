@@ -64,7 +64,7 @@ const NavBar = (props) => {
 
   return (
     <div>
-      <Navbar expand="lg" variant="dark" bg="dark">
+      <Navbar expand="lg" color="dark">
         <NavbarToggler onClick={toggle} />
         <NavbarBrand to="/">
           {props.branding}
@@ -90,28 +90,8 @@ const NavBar = (props) => {
               <DropDowns className="mr-auto" dropdowns={menus.leftdropdowns} user={user} />
             }
           </Nav>
-          <Nav className="ml-auto">
-            {menus.rightdropdowns &&
-              <DropDowns className="ml-auto" dropdowns={menus.rightdropdowns} user={user} />
-            }
-
-            {isLoaded(user) ?
-              <NavItem>
-                <NavLink tag={RRNavLink} to={props.logoutUrl}>Logout ({user.sub})</NavLink>
-              </NavItem>
-              :
-              <NavItem>
-                <NavLink tag={RRNavLink} to={props.loginUrl}>Login</NavLink>
-              </NavItem>
-            }
-          </Nav>
         </Collapse>
       </Navbar>
-      {/* <Navbar expand="lg" color="light">
-        <NavbarToggler onClick={toggle} />
-        <NavbarBrand to="/">{props.branding}</NavbarBrand>
-        
-      </Navbar> */}
     </div>
   );
 }
