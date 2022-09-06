@@ -167,7 +167,7 @@ const ResumePage = () => (
                                       >
                                         <a
                                           data-testid="linkElement"
-                                          href="https://6e1b4018-ad8d-47bf-97cd-0ac750f3165c.filesusr.com/ugd/6ee79a_1e2b17a66a3b42c68f916d6f14d145fe.pdf"
+                                          href="https://6e1b4018-ad8d-47bf-97cd-0ac750f3165c.filesusr.com/ugd/4e3564_f48e267f69e44875b9e42de73fab1ad4.pdf"
                                           target="_blank"
                                           className="_1fbEI"
                                           aria-disabled="false"
