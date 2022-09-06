@@ -522,7 +522,13 @@ let HomePage = (props) => (
                                           <span className="_1Qjd7">RESUME</span>
                                         </a>
                                       </div>
-                                      <div
+                                      <div>
+                                        <button onClick={navigate('/projects')}>Projects</button>
+                                        <Routes>
+                                          <Route path="/projects" element={<ProjectsPage />} />
+                                        </Routes>
+                                      </div>
+                                      {/* <div
                                         className="_2UgQw"
                                         id="comp-k0med55t"
                                         aria-disabled="false"
@@ -536,7 +542,7 @@ let HomePage = (props) => (
                                         >
                                           <span className="_1Qjd7">PROJECTS</span>
                                         </a>
-                                      </div>
+                                      </div> */}
                                       <div
                                         id="comp-k0med55w"
                                         className="_2Hij5 _3bcaz"
