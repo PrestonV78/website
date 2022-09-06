@@ -10,7 +10,8 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem } from 'reactstrap';
+  DropdownItem
+} from 'reactstrap';
 
 // https://stackoverflow.com/questions/42372179/reactstrap-and-react-router-4-0-0-beta-6-active-navlink
 import { NavLink as RRNavLink } from 'react-router-dom';
@@ -21,34 +22,34 @@ import { isLoaded } from '../util/loadingObject'
  * inside a <Nav> element 
  */
 const DropDowns = (props) => {
-    const user = props.user 
-    const isAdmin = Boolean(Number(user.admin))
+  const user = props.user
+  const isAdmin = Boolean(Number(user.admin))
 
-    return (<div>
-      {props.dropdowns.map((dropdown, index) =>
-         (!(dropdown.onlyifauthenticated || dropdown.onlyifadmin)
-          || (isLoaded(user) &&
-                (
-                    (dropdown.onlyifauthenticated && !dropdown.onlyifadmin)
-                 || (dropdown.onlyifadmin && isAdmin)
-                )
-             )
-         ) &&
-         <UncontrolledDropdown nav inNavbar key={index}>
-            <DropdownToggle nav caret>
-              {dropdown.label}
-            </DropdownToggle>
-            <DropdownMenu end>
-                {dropdown.entries.map((item) =>
-                  <DropdownItem key={item.path}>
-                    <NavLink to={item.path} key={item.path} tag={RRNavLink}>
-                        {item.label}
-                    </NavLink>
-                  </DropdownItem>
-                )}
-            </DropdownMenu>
-         </UncontrolledDropdown>
-      )}</div>)
+  return (<div>
+    {props.dropdowns.map((dropdown, index) =>
+      (!(dropdown.onlyifauthenticated || dropdown.onlyifadmin)
+        || (isLoaded(user) &&
+          (
+            (dropdown.onlyifauthenticated && !dropdown.onlyifadmin)
+            || (dropdown.onlyifadmin && isAdmin)
+          )
+        )
+      ) &&
+      <UncontrolledDropdown nav inNavbar key={index}>
+        <DropdownToggle nav caret>
+          {dropdown.label}
+        </DropdownToggle>
+        <DropdownMenu end>
+          {dropdown.entries.map((item) =>
+            <DropdownItem key={item.path}>
+              <NavLink to={item.path} key={item.path} tag={RRNavLink}>
+                {item.label}
+              </NavLink>
+            </DropdownItem>
+          )}
+        </DropdownMenu>
+      </UncontrolledDropdown>
+    )}</div>)
 }
 
 /**
@@ -64,18 +65,16 @@ const NavBar = (props) => {
   return (
     <div>
       <Navbar bg="dark" variant="dark">
-        <Container>
-          <Navbar.Brand href="#home">
-            <img
-              alt=""
-              src="/logo.svg"
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-            />{' '}
-            PVerling
-          </Navbar.Brand>
-        </Container>
+        <Navbar.Brand href="#home">
+          <img
+            alt=""
+            src="/Logo.svg"
+            width="30"
+            height="30"
+            className="d-inline-block align-top"
+          />{' '}
+          PVerling
+        </Navbar.Brand>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             {menus.topbar.map((item) =>
