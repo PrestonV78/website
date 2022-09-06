@@ -65,7 +65,8 @@ const NavBar = (props) => {
   return (
     <div>
       <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#home">
+        <NavbarToggler onClick={toggle} />
+        <NavbarBrand to="/">
           <img
             alt=""
             src="/Logo.svg"
@@ -74,7 +75,7 @@ const NavBar = (props) => {
             className="d-inline-block align-top"
           />{' '}
           PVerling
-        </Navbar.Brand>
+        </NavbarBrand>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             {menus.topbar.map((item) =>
