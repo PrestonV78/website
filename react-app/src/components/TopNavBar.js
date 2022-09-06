@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Logo from '../../logo.svg';
 import {
   Collapse,
   Navbar,
@@ -68,12 +69,13 @@ const NavBar = (props) => {
         <NavbarToggler onClick={toggle} />
         <NavbarBrand to="/">
           {/* {props.branding} */}
-          <img
+          <img width="70px" height="auto" className="img-responsive" src={Logo}  alt="logo" />{' '}
+          {/* <img
             src="logo.svg"
             width="30"
             height="30"
             className="d-inline-block align-top"
-          />{' '}
+          />{' '} */}
           PVerling
         </NavbarBrand>
         <Collapse isOpen={isOpen} navbar>
