@@ -70,7 +70,7 @@ const NavBar = (props) => {
           {/* {props.branding} */}
           <img
             alt=""
-            src="/Logo.svg"
+            src="Logo.svg"
             width="30"
             height="30"
             className="d-inline-block align-top"
