@@ -63,7 +63,21 @@ const NavBar = (props) => {
 
   return (
     <div>
-      <Navbar expand="lg" color="light">
+      <Navbar bg="dark" variant="dark">
+        <Container>
+          <Navbar.Brand href="#home">
+            <img
+              alt=""
+              src="/logo.svg"
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+            />{' '}
+            React Bootstrap
+          </Navbar.Brand>
+        </Container>
+      </Navbar>
+      {/* <Navbar expand="lg" color="light">
         <NavbarToggler onClick={toggle} />
         <NavbarBrand to="/">{props.branding}</NavbarBrand>
         <Collapse isOpen={isOpen} navbar>
@@ -95,7 +109,7 @@ const NavBar = (props) => {
             }
           </Nav>
         </Collapse>
-      </Navbar>
+      </Navbar> */}
     </div>
   );
 }
