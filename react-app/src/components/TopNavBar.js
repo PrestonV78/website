@@ -67,14 +67,15 @@ const NavBar = (props) => {
       <Navbar bg="dark" variant="dark">
         <NavbarToggler onClick={toggle} />
         <NavbarBrand to="/">
-          <img
+          {props.branding}
+          {/* <img
             alt=""
             src="/Logo.svg"
             width="30"
             height="30"
             className="d-inline-block align-top"
           />{' '}
-          PVerling
+          PVerling */}
         </NavbarBrand>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
