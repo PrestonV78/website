@@ -2,19 +2,29 @@
     "trailingSlash": "never",
     "routes": [
       {
-        "route": "/index.html"
+        "route": "/",
+        "serve": "/index.html",
+        "statusCode": 200
       },
       {
-        "route": "/resume.html"
+        "route": "/resume",
+        "serve": "/resume.html",
+        "statusCode": 200
       },
       {
-        "route": "/home.html"
+        "route": "/home",
+        "serve": "/index.html",
+        "statusCode": 200
       },
       {
-        "route": "/contact.html"
+        "route": "/contact",
+        "serve": "/contact.html",
+        "statusCode": 200
       },
       {
-        "route": "/projects.html"
+        "route": "/projects",
+        "serve": "/projects.html",
+        "statusCode": 200
       }
     ]
 }
