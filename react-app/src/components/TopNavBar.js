@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from 'logo.svg';
+import Logo from '/logo.svg';
 import {
   Collapse,
   Navbar,
