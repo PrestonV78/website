@@ -73,13 +73,9 @@ const NavBar = (props) => {
               height="30"
               className="d-inline-block align-top"
             />{' '}
-            React Bootstrap
+            PVerling
           </Navbar.Brand>
         </Container>
-      </Navbar>
-      {/* <Navbar expand="lg" color="light">
-        <NavbarToggler onClick={toggle} />
-        <NavbarBrand to="/">{props.branding}</NavbarBrand>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             {menus.topbar.map((item) =>
@@ -109,6 +105,11 @@ const NavBar = (props) => {
             }
           </Nav>
         </Collapse>
+      </Navbar>
+      {/* <Navbar expand="lg" color="light">
+        <NavbarToggler onClick={toggle} />
+        <NavbarBrand to="/">{props.branding}</NavbarBrand>
+        
       </Navbar> */}
     </div>
   );
