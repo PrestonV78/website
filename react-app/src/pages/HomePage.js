@@ -195,6 +195,7 @@ let HomePage = (props) => (
       <div id="main_MF">
         <div id="site-root">
           <div id="masterPage" className="mesh-layout">
+            <div id="SITE_HEADER-placeholder" />
             <main id="PAGES_CONTAINER" tabIndex={-1}>
               <div id="SITE_PAGES" className="_1gF1C">
                 <div id="SITE_PAGES_TRANSITION_GROUP" className="_2YGAo">
