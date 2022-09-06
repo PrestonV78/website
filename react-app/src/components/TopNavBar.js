@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Logo from '/logo.svg';
 import {
   Collapse,
   Navbar,
@@ -69,7 +68,7 @@ const NavBar = (props) => {
         <NavbarToggler onClick={toggle} />
         <NavbarBrand to="/">
           {/* {props.branding} */}
-          <img width="70px" height="auto" className="img-responsive" src={Logo}  alt="logo" />{' '}
+          <img width="70px" height="auto" className="img-responsive" src="/logo.svg"  alt="logo" />{' '}
           {/* <img
             src="logo.svg"
             width="30"
