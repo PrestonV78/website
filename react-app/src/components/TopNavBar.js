@@ -64,17 +64,11 @@ const NavBar = (props) => {
 
   return (
     <div>
-      <Navbar color="dark" dark expand="lg">
+      <Navbar color="light" light expand="lg">
         <NavbarToggler onClick={toggle} />
         <NavbarBrand to="/">
           {/* {props.branding} */}
-          <img width="100px" height="auto" className="img-responsive" src="/logo.svg"  alt="" />{' '}
-          {/* <img
-            src="logo.svg"
-            width="30"
-            height="30"
-            className="d-inline-block align-top"
-          />{' '} */}
+          <img width="50px" height="auto" className="img-responsive" src="/logo.png"  alt="" />{' '}
           PVerling
         </NavbarBrand>
         <Collapse isOpen={isOpen} navbar>
