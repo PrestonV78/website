@@ -64,7 +64,7 @@ const NavBar = (props) => {
 
   return (
     <div>
-      <Navbar expand="lg" color="purple">
+      <Navbar color="dark" dark expand="lg">
         <NavbarToggler onClick={toggle} />
         <NavbarBrand to="/">
           {/* {props.branding} */}
