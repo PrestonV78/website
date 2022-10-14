@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "site": "pverling",
     "public": "public",
     "ignore": [
       "firebase.json",
