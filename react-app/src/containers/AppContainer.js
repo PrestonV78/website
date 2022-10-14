@@ -8,9 +8,6 @@ import NotFoundPage from '../pages/NotFoundPage';
 import HomePage from '../pages/HomePage';
 import PrivatePage from '../pages/PrivatePage';
 import PlayerPage from '../pages/PlayerPage';
-import ProjectsPage from '../pages/ProjectsPage';
-import ResumePage from '../pages/ResumePage';
-import ContactPage from '../pages/ContactPage';
 
 import { Routes, Route } from 'react-router-dom';
 
@@ -36,9 +33,6 @@ const AppContainer = (props) => (
               <Route path={`/public`} element={<PublicPage />} />
               <Route path={`/protected`} element={<PrivatePage />} />
               <Route path={`/player`} element={<PlayerPage />} />
-              <Route path={`/resume`} element={<ResumePage />} />
-              <Route path={`/contact`} element={<ContactPage />} />
-              <Route path={`/projects`} element={<ProjectsPage />} />
               <Route element={<NotFoundPage />} />
           </Routes>
       </div>
