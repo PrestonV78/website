@@ -34,10 +34,33 @@ export const projects = [
 ];
 
 export const skills = [
+  "Java",
+  "Algorithms",
+  "C",
+  "Debugging",
+  "Python",
+  "Data Analysis",
   "JavaScript",
+  "Figma",
+  "MATLAB",
+  "Algorithms",
   "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  "GUI Modelling and Design",
+];
+
+export const courses = [
+  "Intermediate Software Design",
+  "Cryptography",
+  "Computer Systems",
+  "Differential Equations",
+  "Computer Organization",
+  "Linear Algebra",
+  "Problem Solving in CS",
+  "Discrete Mathematics",
+  "Software Design and Data Structures",
+  "Applied Combinatorics",
+  "Data Structures and Algorithms",
+  "Multivariable Calculus",
+  "Software Design",
+  "Single Variable Calculus",
 ];

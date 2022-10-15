@@ -7,13 +7,12 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm Preston.
-            <br className="hidden lg:inline-block" />I love to build all different
-            projects.
+            <br></br> I love to build creative solutions.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+            I am a current Senior at Virginia Tech studying Computer Science.<br></br>
+            I am set to graduate in May 2023 with my Bachelor's.<br></br>
+            I am currently looking for Post-Grad Full Time Opportunities.<br></br>
           </p>
           <div className="flex justify-center">
             <a
@@ -32,7 +31,7 @@ export default function About() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="./coding.svg"
+            src="../Logo.svg"
           />
         </div>
       </div>
