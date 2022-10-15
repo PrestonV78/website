@@ -25,9 +25,27 @@
     <title>Preston Verling</title>
   </head>
   <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
+    <Container>
+      <Row>
+        <h1>Website Demo App</h1>
+      </Row>
+      <Row>
+        <Col>
+          <img alt="" src={logo} className="app-logo" />
+        </Col>
+        <Col>
+          <img alt="" src={logo_name} className="name-logo" />
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <p>
+            This small <a href="https://reactjs.org/">React {React.version}</a>{" "}
+            app that is an inprogress version of a portfolio website.
+          </p>
+        </Col>
+      </Row>
+    </Container>
     <div id="root"></div>
     <!--
       This HTML file is a template.
