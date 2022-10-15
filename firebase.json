@@ -1,16 +1,10 @@
 {
   "hosting": {
-    "public": "react-app/public",
+    "public": "/react-app/public",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
     ]
   }
 }
