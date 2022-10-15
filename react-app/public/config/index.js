@@ -34,7 +34,5 @@ const apiPrefix = `${publicUrl}/api`
 console.log(`Read configuration.  Public_URL: ${publicUrl}`)
 // console.log(`apiPrefix:  ${apiPrefix}`)
 
-export default { menus,
-    branding: "Preston Verling Portfolio App                                                              ",
-    apiPrefix, publicUrl
+export default { menus, apiPrefix, publicUrl
 }
