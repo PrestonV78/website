@@ -9,7 +9,7 @@ export default function About() {
             Hi, my name is Preston.
             <br></br> I build creative solutions.
           </h1>
-          <p className="mb-8 leading-relaxed">
+          <p className="mb-8 leading-relaxed text-white">
             I am a current Senior at Virginia Tech studying Computer Science.<br></br>
             I am set to graduate in May 2023 with my Bachelor's.<br></br>
             I am currently looking for Post-Grad Full Time Opportunities.<br></br>

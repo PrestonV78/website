@@ -11,7 +11,7 @@ export default function Projects() {
           <h1 className="sm:text-7xl text-3xl font-HelloZone title-font mb-4 text-white">
             Things I've Built
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-white">
             Here is my showcase of past projects I have worked on both personally and through coursework. All GitLabs for coursework projects are availible through request.
           </p>
         </div>
@@ -28,7 +28,7 @@ export default function Projects() {
                   src={project.image}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-purple-400 mb-1">
                     {project.subtitle}
                   </h2>
                   <h1 className="title-font text-lg font-medium text-white mb-3">
