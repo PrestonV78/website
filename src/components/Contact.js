@@ -19,7 +19,7 @@ export default function Contact() {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "test", name, email, message }),
+      body: encode({ "form-name": "test", name, affiliation, email, message }),
     })
       .then(() => alert("Message sent!"))
       .catch((error) => alert(error));
@@ -55,11 +55,10 @@ export default function Contact() {
             <label htmlFor="affiliation" className="leading-7 text-sm text-gray-400">
               Affiliation
             </label>
-            <input
-              type="text"
+            <textarea
               id="affiliation"
               name="affiliation"
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               onChange={(e) => setAffiliation(e.target.value)}
             />
           </div>
