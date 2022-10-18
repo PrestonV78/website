@@ -10,7 +10,7 @@ import End from "./components/End";
 
 export default function App() {
   return (
-    <main className="text-gray-400 bg-neutral-900 body-font">
+    <main className="text-gray-400 bg-neutral-800 body-font">
       <Navbar />
       <About />
       <Space />
