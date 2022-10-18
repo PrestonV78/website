@@ -12,7 +12,7 @@ export default function Projects() {
             Things I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            This Section is In Progress!
+            Here is my showcase of past projects I have worked on both personally and through coursework. All GitLabs for coursework projects are availible through request.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

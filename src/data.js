@@ -1,35 +1,37 @@
+import { TerminalIcon, PuzzleIcon, LockClosedIcon, DesktopComputerIcon } from "@heroicons/react/solid";
+
 export const projects = [
   {
-    title: "Coming Soon",
-    subtitle: "Coming Soon",
+    title: "Personal Server",
+    subtitle: "*GitLab is available upon request for this project*",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "",
+      "Personal Server allows for the running of a server by the user that handles many different situations. The server is implemented to handle multiple clients, mutli-threading, private access through cookie verification, HTTP/1.0 and HTTP/1.1, range requests, static file serving, HTML5 fallback, video streaming, and refresh authentication.",
+    image: "./Server.svg",
+    link: "https://pverling.com#contact",
   },
   {
-    title: "Coming Soon",
-    subtitle: "Coming Soon",
+    title: "Discord Bots",
+    subtitle: "BubbaBot and TCVT Bot",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "",
+      "Discord Bots created and maintained by me on Replit servers. BubbaBot is a personal bot made for my significant other and is written in JavaScript utilizing the discord.js api. TCVT Bot is a discord bot for Truck Club at Virginia Tech written in python that utilizes discord.py and json files. TCVT Bot has message tracking, a casino function, and simple reaction roles.",
+    image: "./Discord.svg",
+    link: "https://replit.com/@PrestonV2",
   },
   {
-    title: "Coming Soon",
-    subtitle: "Coming Soon",
+    title: "Cush",
+    subtitle: "*GitLab is available upon request for this project*",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "",
+      "Cush is a personal customized shell that was created by me and my partner. With this project we were able to create a shell that, has a custom prompt, supports many built-in commands, keyboard signaling, I/O redirection, exclusive terminal access, piping, directory changing, and history commands. ",
+    image: "./Terminal.svg",
+    link: "https://pverling.com#contact",
   },
   {
-    title: "Coming Soon",
-    subtitle: "Coming Soon",
+    title: "AES Encryption System",
+    subtitle: "*GitLab is available upon request for this project*",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "",
+      "AES Encryption System is a local system that can encrypt and decrypt many AES variants. The system allows for the use of ECB and CBC modes. It also allows for the use of the simple or expanded key. The System includes a menu to help with the running and selection of these options that can be found by running the executable with no parameters.",
+    image: "./AES.svg",
+    link: "https://pverling.com#contact",
   },
 ];
 
@@ -43,7 +45,7 @@ export const skills = [
   "JavaScript",
   "Figma",
   "MATLAB",
-  "Algorithms",
+  "Problem Solving",
   "React",
   "GUI Modelling and Design",
 ];
