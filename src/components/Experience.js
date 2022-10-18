@@ -11,7 +11,7 @@ export default function Experiences() {
           <h1 className="sm:text-7xl text-3xl font-HelloZone title-font mb-4 text-white">
             What  I Have Done
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-white">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-white text-base">
             Here is my showcase of past experience I have in the areas of education, design teams, and professional.
           </p>
         </div>

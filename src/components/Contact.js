@@ -40,7 +40,7 @@ export default function Contact() {
             Use the form below to contact me for any inquiries. All GitHub/GitLab access inquiries should be sent through this form. I will respond to all inquiries in a timely manner. Thank you!
           </p>
           <div className="relative mb-4 text-left">
-            <label htmlFor="name" className="leading-7 text-sm text-white-400">
+            <label htmlFor="name" className="leading-7 text-sm text-white">
               Name
             </label>
             <input
@@ -52,7 +52,7 @@ export default function Contact() {
             />
           </div>
           <div className="relative mb-4 text-left">
-            <label htmlFor="affiliation" className="leading-7 text-sm text-white-400">
+            <label htmlFor="affiliation" className="leading-7 text-sm text-white">
               Affiliation
             </label>
             <input
@@ -64,7 +64,7 @@ export default function Contact() {
             />
           </div>
           <div className="relative mb-4 text-left">
-            <label htmlFor="email" className="leading-7 text-sm text-white-400">
+            <label htmlFor="email" className="leading-7 text-sm text-white">
               Email
             </label>
             <input
@@ -78,7 +78,7 @@ export default function Contact() {
           <div className="relative mb-4 text-left">
             <label
               htmlFor="message"
-              className="leading-7 text-sm text-white-400">
+              className="leading-7 text-sm text-white">
               Message
             </label>
             <textarea
