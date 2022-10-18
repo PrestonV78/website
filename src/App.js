@@ -13,13 +13,13 @@ export default function App() {
     <main className="bg-gray-900 text-gray-400 body-font">
       <Navbar />
       <About />
-      <Space />
+      {/* <Space /> */}
       <Projects />
-      <Space />
+      {/* <Space /> */}
       <Experience />
-      <Space />
+      {/* <Space /> */}
       <Skills />
-      <Space />
+      {/* <Space /> */}
       <Contact />
       <End />
     </main>
