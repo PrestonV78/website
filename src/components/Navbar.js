@@ -12,7 +12,7 @@ export default function Navbar() {
             src="../Logo.svg"
           />
         </div>
-        <a className="title-font font-HelloZone text-white mb-4 md:mb-0 sm:text-7xl text-3xl">
+        <a className="title-font font-HelloZone text-white mb-4 md:mb-0">
           <a href="#about" className="ml-3 text-xl">
             Preston Verling
           </a>

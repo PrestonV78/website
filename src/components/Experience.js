@@ -9,7 +9,7 @@ export default function Experiences() {
         <div className="flex flex-col w-full mb-20">
           <BriefcaseIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-7xl text-3xl font-HelloZone title-font mb-4 text-white">
-            What I Have Done
+            What  I Have Done
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Here is my showcase of past experience I have in the areas of education, design teams, and professional.

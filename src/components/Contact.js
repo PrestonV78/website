@@ -34,7 +34,7 @@ export default function Contact() {
           onSubmit={handleSubmit}
           className="lg:w md:w- flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-white sm:text-7xl text-3xl mb-1 font-HelloZone title-font text-center">
-            Contact Me
+            Contact  Me
           </h2>
           <p className="leading-relaxed mb-5 text-center">
             Use the form below to contact me for any inquiries. All GitHub/GitLab access inquiries should be sent through this form. I will respond to all inquiries in a timely manner. Thank you!
