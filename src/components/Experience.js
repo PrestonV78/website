@@ -7,7 +7,7 @@ export default function Experiences() {
     <section id="experience" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-          <BriefcaseIcon className="mx-auto inline-block w-10 mb-4" />
+          <BriefcaseIcon className="text-purple-400 mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-7xl text-3xl font-HelloZone title-font mb-4 text-white">
             What  I Have Done
           </h1>

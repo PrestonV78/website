@@ -8,7 +8,7 @@ export default function Skills() {
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
-          <ChipIcon className="w-10 inline-block mb-4" />
+          <ChipIcon className="text-purple-400 w-10 inline-block mb-4" />
           <h1 className="sm:text-7xl text-3xl font-HelloZone title-font text-white mb-4">
             Skills &amp;  Technologies
           </h1>
@@ -28,7 +28,7 @@ export default function Skills() {
       </div>
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
-          <BookOpenIcon className="w-10 inline-block mb-4" />
+          <BookOpenIcon className="text-purple-400 w-10 inline-block mb-4" />
           <h1 className="sm:text-7xl text-3xl font-HelloZone title-font text-white mb-4">
           Relevant &lrm; &lrm; Courses
           </h1>
