@@ -39,7 +39,7 @@ export default function Contact() {
           <p className="leading-relaxed mb-5 text-center">
             Use the form below to contact me for any inquiries. All GitHub/GitLab access inquiries should be sent through this form. I will respond to all inquiries in a timely manner. Thank you!
           </p>
-          <div className="relative mb-4">
+          <div className="relative mb-4 text-left">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
             </label>
