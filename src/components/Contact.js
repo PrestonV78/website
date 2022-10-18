@@ -33,7 +33,7 @@ export default function Contact() {
           name="test"
           onSubmit={handleSubmit}
           className="lg:w md:w- flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font text-center">
+          <h2 className="text-white sm:text-7xl text-3xl mb-1 font-HelloZone title-font text-center">
             Contact Me
           </h2>
           <p className="leading-relaxed mb-5 text-center">
