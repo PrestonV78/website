@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        NeverEnding: ["NeverEnding"],
+        HelloZone: ["HelloZone"],
       },
     },
   },
