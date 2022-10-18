@@ -15,6 +15,13 @@ export default function Experiences() {
             Here is my showcase of past experience I have in the areas of education, design teams, and professional.
           </p>
         </div>
+        <div className="flex justify-center">
+            <a
+              href="./Resume.pdf"
+              className="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">
+              Resume
+            </a>
+          </div>
         <div className="flex flex-wrap -m-4">
           {experiences.map((experience) => (
             <a
