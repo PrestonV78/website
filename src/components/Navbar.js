@@ -5,6 +5,13 @@ export default function Navbar() {
   return (
     <header className="bg-purple-800 md:sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <img
+            className="object-cover object-center rounded"
+            alt="badge"
+            src="../Logo.svg"
+          />
+        </div>
         <a className="title-font font-medium text-white mb-4 md:mb-0">
           <a href="#about" className="ml-3 text-xl">
             Preston Verling
