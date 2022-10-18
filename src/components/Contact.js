@@ -2,6 +2,7 @@ import React from "react";
 
 export default function Contact() {
   const [name, setName] = React.useState("");
+  const [affiliation, setAffiliation] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [message, setMessage] = React.useState("");
 
@@ -48,6 +49,18 @@ export default function Contact() {
               name="name"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setName(e.target.value)}
+            />
+          </div>
+          <div className="relative mb-4">
+            <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+              Affiliation
+            </label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              onChange={(e) => setAffiliation(e.target.value)}
             />
           </div>
           <div className="relative mb-4">

@@ -1,5 +1,3 @@
-import { TerminalIcon, PuzzleIcon, LockClosedIcon, DesktopComputerIcon } from "@heroicons/react/solid";
-
 export const projects = [
   {
     title: "Personal Server",
