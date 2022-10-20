@@ -29,7 +29,7 @@ export default function Experiences() {
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src={experience.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-900 bg-black opacity-0 hover:opacity-100">
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-purple-900 bg-black opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-purple-400 mb-1">
                     {experience.subtitle}
                   </h2>
