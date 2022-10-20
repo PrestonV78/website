@@ -27,6 +27,8 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative">
+      <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col items-center">
+      </div>
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col text-center items-center">
         <form
           netlify

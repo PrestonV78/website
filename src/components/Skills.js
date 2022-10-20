@@ -6,6 +6,8 @@ import { courses } from "../data";
 export default function Skills() {
   return (
     <section id="skills">
+      <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col items-center">
+      </div>
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
           <ChipIcon className="text-purple-400 w-10 inline-block mb-4" />

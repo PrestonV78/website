@@ -5,6 +5,8 @@ import { projects } from "../data";
 export default function Projects() {
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
+      <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col items-center">
+      </div>
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="text-purple-400 mx-auto inline-block w-10 mb-4" />
