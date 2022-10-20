@@ -49,7 +49,7 @@ export default function Contact() {
               type="text"
               id="name"
               name="name"
-              className="w-full bg-gray-900 rounded border border-gray-900 focus:border-purple-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-purple-900 rounded border border-gray-900 focus:border-purple-500 focus:ring-2 focus:ring-purple-900 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setName(e.target.value)}
             />
           </div>
@@ -61,7 +61,7 @@ export default function Contact() {
               type="text"
               id="affiliation"
               name="affiliation"
-              className="w-full bg-gray-900 rounded border border-gray-900 focus:border-purple-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-purple-900 rounded border border-gray-900 focus:border-purple-500 focus:ring-2 focus:ring-purple-900 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setAffiliation(e.target.value)}
             />
           </div>
@@ -73,7 +73,7 @@ export default function Contact() {
               type="email"
               id="email"
               name="email"
-              className="w-full bg-gray-900 rounded border border-gray-900 focus:border-purple-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-purple-900 rounded border border-gray-900 focus:border-purple-500 focus:ring-2 focus:ring-purple-900 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
@@ -86,7 +86,7 @@ export default function Contact() {
             <textarea
               id="message"
               name="message"
-              className="w-full bg-gray-900 rounded border border-gray-900 focus:border-purple-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-purple-900 rounded border border-gray-900 focus:border-purple-500 focus:ring-2 focus:ring-purple-900 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
