@@ -30,7 +30,7 @@ export default function Navbar() {
         </nav>
         <a
           href="#contact"
-          className="inline-flex items-center bg-black-800 border-0 py-1 px-3 focus:outline-none hover:bg-black-700 rounded text-base mt-4 md:mt-0">
+          className="inline-flex items-center bg-purple-800 border-0 py-1 px-3 focus:outline-none hover:bg-purple-800 rounded text-base mt-4 md:mt-0 hover:text-white">
           Contact Me
           <ArrowRightIcon className="w-4 h-4 ml-1" />
         </a>
