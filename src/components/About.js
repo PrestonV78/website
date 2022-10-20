@@ -7,11 +7,11 @@ export default function About() {
       </div>
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-7xl text-3xl mb-4 font-HelloZone text-white">
+          <h1 className="title-font sm:text-7xl text-3xl mb-4 font-HelloZone text-purple-900">
             Hi, my name is Preston.
             <br></br> I build creative solutions.
           </h1>
-          <p className="mb-8 text-gray-900 leading-relaxed">
+          <p className="mb-8 text-gray-400 leading-relaxed">
             I am a current Senior at Virginia Tech studying Computer Science.<br></br>
             I am set to graduate in May 2023 with my Bachelor's.<br></br>
             I am currently looking for Post-Grad Full Time Opportunities.<br></br>
