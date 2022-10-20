@@ -38,7 +38,7 @@ export default function Contact() {
           <h2 className="text-white sm:text-7xl text-3xl mb-1 font-HelloZone title-font text-center">
             Contact  Me
           </h2>
-          <p className="leading-relaxed mb-5 text-center text-white">
+          <p className="leading-relaxed mb-5 text-center text-gray-400">
             Use the form below to contact me for any inquiries. All GitHub/GitLab access inquiries should be sent through this form. I will respond to all inquiries in a timely manner. Thank you!
           </p>
           <div className="relative mb-4 text-left">

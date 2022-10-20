@@ -13,7 +13,7 @@ export default function Experiences() {
           <h1 className="sm:text-7xl text-3xl font-HelloZone title-font mb-4 text-white">
             What  I Have Done
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-white text-base">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-gray-400 text-base">
             Here is my showcase of past experience I have in the areas of education, design teams, and professional.
           </p>
         </div>
@@ -36,7 +36,7 @@ export default function Experiences() {
                   <h1 className="title-font text-lg font-medium text-white mb-3">
                     {experience.title}
                   </h1>
-                  <p className="leading-relaxed">{experience.description}</p>
+                  <p className="leading-relaxed text-gray-400">{experience.description}</p>
                 </div>
               </div>
             </a>

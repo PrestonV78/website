@@ -13,7 +13,7 @@ export default function Projects() {
           <h1 className="sm:text-7xl text-3xl font-HelloZone title-font mb-4 text-white">
             Things I've Built
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-white text-base">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-gray-400 text-base">
             Here is my showcase of past projects I have worked on both personally and through coursework. All GitLabs for coursework projects are availible through request.
           </p>
         </div>
@@ -36,7 +36,7 @@ export default function Projects() {
                   <h1 className="title-font text-lg font-medium text-white mb-3">
                     {project.title}
                   </h1>
-                  <p className="leading-relaxed">{project.description}</p>
+                  <p className="leading-relaxed text-gray-400">{project.description}</p>
                 </div>
               </div>
             </a>
