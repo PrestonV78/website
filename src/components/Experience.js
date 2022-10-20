@@ -4,7 +4,7 @@ import { experiences } from "../data";
 
 export default function Experiences() {
   return (
-    <section id="experience" className="text-gray-400 bg-gray-900 body-font">
+    <section id="experience" className="text-gray-900 bg-black body-font">
       <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col items-center">
       </div>
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
@@ -29,7 +29,7 @@ export default function Experiences() {
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src={experience.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-900 bg-black opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-purple-400 mb-1">
                     {experience.subtitle}
                   </h2>

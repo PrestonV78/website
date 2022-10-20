@@ -24,7 +24,7 @@ export default function About() {
             </a>
             <a
               href="#projects"
-              className="ml-4 inline-flex text-white-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-black-700 hover:text-white rounded text-lg">
+              className="ml-4 inline-flex text-white-400 bg-gray-900 border-0 py-2 px-6 focus:outline-none hover:bg-black-700 hover:text-white rounded text-lg">
               See My Past Work
             </a>
           </div>
