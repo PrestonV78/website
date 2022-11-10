@@ -12,14 +12,14 @@
     left: 0;
     padding-bottom: 4em;
     position: fixed;
-    width: 5vw;
+    width: 8vw;
   }
   .twitter {
     bottom: 0;
     left: 0;
     padding-bottom: 8em;
     position: fixed;
-    width: 5vw;
+    width: 2vw;
   }
   .github {
     bottom: 0;
@@ -33,5 +33,5 @@
     left: 0;
     padding-bottom: 16em;
     position: fixed;
-    width: 5vw;
+    width: 1vw;
   }
