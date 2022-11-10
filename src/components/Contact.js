@@ -35,10 +35,10 @@ export default function Contact() {
             Socials
           </h1>
           <p className="mb-8 text-gray-400 leading-relaxed">
-            <img alt="linkedin" className="linkedin" src="./linkedin.svg" />
-            <img alt="discord" className="discord" src="./Discord.svg" />
-            <img alt="twitter" className="twitter" src="./twitter.svg" />
-            <img alt="github" className="github" src="./github.svg" />
+            <img alt="linkedin" className="socials" src="./linkedin.svg" />
+            <img alt="discord" className="socials" src="./Discord.svg" />
+            <img alt="twitter" className="socials" src="./twitter.svg" />
+            <img alt="github" className="socials" src="./github.svg" />
           </p>
         </div>
         <form
