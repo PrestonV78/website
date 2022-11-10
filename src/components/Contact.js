@@ -35,30 +35,26 @@ export default function Contact() {
             Socials
           </h1>
           <p className="mb-8 text-gray-400 leading-relaxed">
-            LinkedIn<br></br>
             <img
-            className="lg:max-w-lg lg:w-full md:w-1/2 w-1/2"
+            className="lg:max-w-lg lg:w-full md:w-1/6 w-1/6"
             alt="badge"
             src="./linkedin.svg"
             href="https://www.linkedin.com/in/preston-verling/"
             />
-            Discord<br></br>
             <img
-            className="object-cover object-center rounded"
+            className="lg:max-w-lg lg:w-full md:w-1/6 w-1/6"
             alt="badge"
             src="./Discord.svg"
             href="https://discord.gg/cQe8EQ4UYP"
             />
-            Twitter<br></br>
             <img
-            className="object-cover object-center rounded"
+            className="lg:max-w-lg lg:w-full md:w-1/6 w-1/6"
             alt="badge"
             src="./twitter.svg"
             href="https://twitter.com/PrestonV78"
             />
-            GitHub<br></br>
             <img
-            className="object-cover object-center rounded"
+            className="lg:max-w-lg lg:w-full md:w-1/6 w-1/6"
             alt="badge"
             src="./github.svg"
             href="https://github.com/PrestonV78"
