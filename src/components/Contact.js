@@ -28,19 +28,13 @@ export default function Contact() {
   return (
     <section id="contact" className="relative">
       <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col items-center">
-        <h2 className="text-white sm:text-7xl text-3xl mb-1 font-HelloZone title-font text-center">
-            Socials
-        </h2>
-        <p className="leading-relaxed mb-5 text-center text-gray-400">
-            LinkedIn
-        </p>
       </div>
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col text-center items-center">
         <form
           netlify
           name="test"
           onSubmit={handleSubmit}
-          className="lg:w-1/2 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+          className="lg:w-1/4 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-white sm:text-7xl text-3xl mb-1 font-HelloZone title-font text-center">
             Contact  Me
           </h2>
