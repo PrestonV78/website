@@ -15,23 +15,23 @@
     width: 5vw;
   }
   .twitter {
-    bottom: -10;
+    bottom: 0;
     left: 0;
-    padding-bottom: 4em;
+    padding-bottom: 8em;
     position: fixed;
     width: 5vw;
   }
   .github {
-    bottom: -20;
+    bottom: 0;
     left: 0;
-    padding-bottom: 4em;
+    padding-bottom: 12em;
     position: fixed;
     width: 5vw;
   }
   .linkedin {
-    bottom: -30;
+    bottom: 0;
     left: 0;
-    padding-bottom: 4em;
+    padding-bottom: 16em;
     position: fixed;
     width: 5vw;
   }
