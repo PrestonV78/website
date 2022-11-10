@@ -6,8 +6,20 @@
     font-family: "HelloZone";
     src: url("./HelloZone.otf");
   }
-  
-  .photo {
+
+  .github {
     height: 200px;
     width: 200px;
+  }
+  .linkedin {
+    height: 100px;
+    width: 100px;
+  }
+  .twitter {
+    height: 150px;
+    width: 150px;
+  }
+  .discord {
+    height: 300px;
+    width: 300px;
   }
