@@ -37,7 +37,7 @@ export default function Contact() {
           <p className="mb-8 text-gray-400 leading-relaxed">
             LinkedIn<br></br>
             <img
-            className="object-cover object-center rounded"
+            className="lg:max-w-lg lg:w-full md:w-1/2 w-1/2"
             alt="badge"
             src="./linkedin.svg"
             href="https://www.linkedin.com/in/preston-verling/"
