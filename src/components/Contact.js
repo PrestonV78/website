@@ -30,16 +30,16 @@ export default function Contact() {
       <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col items-center">
         <p className="mb-8 text-gray-400 leading-relaxed">
           <a href="https://www.linkedin.com/in/preston-verling/" target="_blank" rel="noopener noreferrer">
-            <img alt="linkedin" className="linkedin" src="./linkedin.svg"  />
+            <img alt="linkedin" className="linkedin" src="./socials_linkedin.svg"  />
           </a>
           <a href="https://github.com/PrestonV78" target="_blank" rel="noopener noreferrer">
-            <img alt="github" className="github" src="./github.svg"  />
+            <img alt="github" className="github" src="./socials_github.svg"  />
           </a>
           <a href="https://twitter.com/PrestonV78" target="_blank" rel="noopener noreferrer">
-            <img alt="twitter" className="twitter" src="./twitter.svg"  />
+            <img alt="twitter" className="twitter" src="./socials_twitter.svg"  />
           </a>
           <a href="https://discord.gg/cQe8EQ4UYP" target="_blank" rel="noopener noreferrer">
-            <img alt="discord" className="discord" src="./Discord.svg"  />
+            <img alt="discord" className="discord" src="./socials_discord.svg"  />
           </a>
         </p>
       </div>
