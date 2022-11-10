@@ -29,10 +29,10 @@ export default function Contact() {
     <section id="contact" className="relative">
       <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col items-center">
         <p className="mb-8 text-gray-400 leading-relaxed">
-          <img alt="linkedin" className="socials" src="./linkedin.svg" />
-          <img alt="discord" className="socials" src="./Discord.svg" />
-          <img alt="twitter" className="socials" src="./twitter.svg" />
-          <img alt="github" className="socials" src="./github.svg" />
+          <img alt="linkedin" className="socials" src="./socials_linkedin.svg"  />
+          <img alt="discord" className="socials" src="./socials_discord.svg"  />
+          <img alt="twitter" className="socials" src="./socials_twitter.svg"  />
+          <img alt="github" className="socials" src="./socialsgithub.svg"  />
         </p>
       </div>
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col text-center items-center">
