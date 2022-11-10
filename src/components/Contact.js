@@ -36,8 +36,29 @@ export default function Contact() {
           </h1>
           <p className="mb-8 text-gray-400 leading-relaxed">
             LinkedIn<br></br>
+            <img
+            className="object-cover object-center rounded"
+            alt="badge"
+            src="../Logo.svg"
+            />
             Discord<br></br>
+            <img
+            className="object-cover object-center rounded"
+            alt="badge"
+            src="../Logo.svg"
+            />
+            Twitter<br></br>
+            <img
+            className="object-cover object-center rounded"
+            alt="badge"
+            src="../Logo.svg"
+            />
             GitHub<br></br>
+            <img
+            className="object-cover object-center rounded"
+            alt="badge"
+            src="../Logo.svg"
+            />
           </p>
         </div>
         <form
