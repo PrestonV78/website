@@ -6,3 +6,8 @@
     font-family: "HelloZone";
     src: url("./HelloZone.otf");
   }
+  
+  .photo {
+    height: 200px;
+    width: 200px;
+  }
