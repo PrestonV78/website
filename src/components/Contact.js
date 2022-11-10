@@ -27,25 +27,20 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative">
-      <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col text-center items-center">
+      <div className="container mx-auto flex px-10 py-10 md:flex-row flex-col items-center">
+        <p className="mb-8 text-gray-400 leading-relaxed">
+          <img alt="linkedin" className="socials" src="./linkedin.svg" />
+          <img alt="discord" className="socials" src="./Discord.svg" />
+          <img alt="twitter" className="socials" src="./twitter.svg" />
+          <img alt="github" className="socials" src="./github.svg" />
+        </p>
       </div>
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col text-center items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-7xl text-3xl mb-4 font-HelloZone text-white">
-            Socials
-          </h1>
-          <p className="mb-8 text-gray-400 leading-relaxed">
-            <img alt="linkedin" className="socials" src="./linkedin.svg" />
-            <img alt="discord" className="socials" src="./Discord.svg" />
-            <img alt="twitter" className="socials" src="./twitter.svg" />
-            <img alt="github" className="socials" src="./github.svg" />
-          </p>
-        </div>
         <form
           netlify
           name="test"
           onSubmit={handleSubmit}
-          className="lg:w-3/4 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+          className="lg:w md:w- flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-white sm:text-7xl text-3xl mb-1 font-HelloZone title-font text-center">
             Contact  Me
           </h2>
