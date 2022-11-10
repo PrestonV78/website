@@ -40,24 +40,28 @@ export default function Contact() {
             className="object-cover object-center rounded"
             alt="badge"
             src="../Logo.svg"
+            href="https://www.linkedin.com/in/preston-verling/"
             />
             Discord<br></br>
             <img
             className="object-cover object-center rounded"
             alt="badge"
             src="../Logo.svg"
+            href="https://discord.gg/cQe8EQ4UYP"
             />
             Twitter<br></br>
             <img
             className="object-cover object-center rounded"
             alt="badge"
             src="../Logo.svg"
+            href="https://twitter.com/PrestonV78"
             />
             GitHub<br></br>
             <img
             className="object-cover object-center rounded"
             alt="badge"
-            src="../Logo.svg"
+            src="./Discord.svg"
+            href="https://github.com/PrestonV78"
             />
           </p>
         </div>
