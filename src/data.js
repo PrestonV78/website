@@ -31,6 +31,14 @@ export const projects = [
     image: "./AES.svg",
     link: "https://pverling.com#contact",
   },
+  {
+    title: "ThermoFlyAI",
+    subtitle: "GUI Team Lead",
+    description:
+      "A React Native Mobile App built using EXpo for the ThermoFlyAI ECE MDE Project. See Experience or Contact Me for more information.",
+    image: "./ThermoFlyAI.svg",
+    link: "https://github.com/PrestonV78/ThermoFlyAIGUI",
+  },
 ];
 
 export const skills = [
@@ -80,6 +88,6 @@ export const experiences = [
     description:
       "While attending Virginia Tech I participated in the ECE Major Design Experience class and was a part of the ThermoFlyAI team. I was the GUI/FrontEnd Team Lead on a project to develop an AI model to control a Residential HVAC System to allow for the learning of a User's preferred temperature based on a standard model and individual learning.",
     image: "./ThermoFlyAI.svg",
-    link: "",
+    link: "https://github.com/PrestonV78/ThermoFlyAIGUI",
   },
 ];
