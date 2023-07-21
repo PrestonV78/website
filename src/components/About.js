@@ -14,7 +14,7 @@ export default function About() {
           <p className="mb-8 text-gray-400 leading-relaxed">
             I am a current Senior at Virginia Tech studying Computer Science.<br></br>
             I am set to graduate in May 2023 with my Bachelor's.<br></br>
-            I am currently looking for Post-Grad Full Time Opportunities.<br></br>
+            I am currently working at Lockheed Martin as a Software Engineer Asc.<br></br>
           </p>
           <div className="flex justify-center">
             <a
