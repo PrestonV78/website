@@ -80,6 +80,14 @@ export const experiences = [
     description:
       "While attending Virginia Tech I participated in the ECE Major Design Experience class and was a part of the ThermoFlyAI team. I was the GUI/FrontEnd Team Lead on a project to develop an AI model to control a Residential HVAC System to allow for the learning of a User's preferred temperature based on a standard model and individual learning.",
     image: "./ThermoFlyAI.svg",
-    link: "",
+    link: "https://github.com/PrestonV78/ThermoFlyAIGUI",
+  },
+  {
+    title: "Lockheed Martin",
+    subtitle: "Software Engineer Asc",
+    description:
+      "After graduating from Virginia Tech I had the opportunity to join Lockheed Martin as a Software Engineer Asc. I am focused on the Maintenance Systems software for the F-35",
+    image: "./lockheed.svg",
+    link: "https://www.lockheedmartin.com/en-us/careers/index.html",
   },
 ];
