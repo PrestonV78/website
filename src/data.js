@@ -31,6 +31,14 @@ export const projects = [
     image: "./AES.svg",
     link: "https://pverling.com#contact",
   },
+  {
+    title: "ThermoFlyAI",
+    subtitle: "GUI Team Lead",
+    description:
+      "A React Native Mobile App built using EXpo for the ThermoFlyAI ECE MDE Project. See Experience or Contact Me for more information.",
+    image: "./ThermoFlyAI.svg",
+    link: "https://github.com/PrestonV78/ThermoFlyAIGUI",
+  },
 ];
 
 export const skills = [
