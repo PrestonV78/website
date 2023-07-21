@@ -71,6 +71,9 @@ export const courses = [
   "Multivariable Calculus",
   "Software Design",
   "Single Variable Calculus",
+  "Data and Algorithm Analysis",
+  "Senior Design Project",
+  "Data Base Mgt Sys",
 ];
 
 export const experiences = [
@@ -78,7 +81,7 @@ export const experiences = [
     title: "Virginia Tech",
     subtitle: "Education",
     description:
-      "Attended Virginia Polytechnic Instituate and State Universiry from July 2019 to May 2023. Graduating with a Bachelor's in Computer Science Engineering with a Minor in Mathematics.",
+      "Attended Virginia Polytechnic Instituate and State Universiry from July 2019 to May 2023. Graduating with a Bachelor's in Computer Science Engineering.",
     image: "./VirginiaTech.svg",
     link: "https://vt.edu",
   },
