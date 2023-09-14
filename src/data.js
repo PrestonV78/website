@@ -5,7 +5,7 @@ export const projects = [
     description:
       "Personal Server allows for the running of a server by the user that handles many different situations. The server is implemented to handle multiple clients, mutli-threading, private access through cookie verification, HTTP/1.0 and HTTP/1.1, range requests, static file serving, HTML5 fallback, video streaming, and refresh authentication.",
     image: "./Server.svg",
-    link: "https://pverling.dev#contact",
+    link: "",
   },
   {
     title: "Discord Bots",
@@ -21,7 +21,7 @@ export const projects = [
     description:
       "Cush is a personal customized shell that was created by me and my partner. With this project we were able to create a shell that, has a custom prompt, supports many built-in commands, keyboard signaling, I/O redirection, exclusive terminal access, piping, directory changing, and history commands. ",
     image: "./Terminal.svg",
-    link: "https://pverling.dev#contact",
+    link: "",
   },
   {
     title: "AES Encryption System",
@@ -29,7 +29,7 @@ export const projects = [
     description:
       "AES Encryption System is a local system that can encrypt and decrypt many AES variants. The system allows for the use of ECB and CBC modes. It also allows for the use of the simple or expanded key. The System includes a menu to help with the running and selection of these options that can be found by running the executable with no parameters.",
     image: "./AES.svg",
-    link: "https://pverling.dev#contact",
+    link: "",
   },
   {
     title: "ThermoFlyAI",
