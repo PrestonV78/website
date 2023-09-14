@@ -71,6 +71,9 @@ export const courses = [
   "Multivariable Calculus",
   "Software Design",
   "Single Variable Calculus",
+  "Data and Algorithm Analysis",
+  "Senior Design Project",
+  "Data Base Mgt Sys",
 ];
 
 export const experiences = [
@@ -78,7 +81,7 @@ export const experiences = [
     title: "Virginia Tech",
     subtitle: "Education",
     description:
-      "Attended Virginia Polytechnic Instituate and State Universiry from July 2019 to May 2023. Graduating with a Bachelor's in Computer Science Engineering with a Minor in Mathematics.",
+      "Attended Virginia Polytechnic Instituate and State Universiry from July 2019 to May 2023. Graduating with a Bachelor's in Computer Science Engineering.",
     image: "./VirginiaTech.svg",
     link: "https://vt.edu",
   },
@@ -89,5 +92,13 @@ export const experiences = [
       "While attending Virginia Tech I participated in the ECE Major Design Experience class and was a part of the ThermoFlyAI team. I was the GUI/FrontEnd Team Lead on a project to develop an AI model to control a Residential HVAC System to allow for the learning of a User's preferred temperature based on a standard model and individual learning.",
     image: "./ThermoFlyAI.svg",
     link: "https://github.com/PrestonV78/ThermoFlyAIGUI",
+  },
+  {
+    title: "Lockheed Martin",
+    subtitle: "Software Engineer Asc",
+    description:
+      "After graduating from Virginia Tech I had the opportunity to join Lockheed Martin as a Software Engineer Asc. I am focused on the Maintenance Systems software for the F-35",
+    image: "./lockheed.svg",
+    link: "https://www.lockheedmartin.com/en-us/careers/index.html",
   },
 ];
