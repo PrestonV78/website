@@ -12,9 +12,10 @@ export default function About() {
             <br></br> I build creative solutions.
           </h1>
           <p className="mb-8 text-gray-400 leading-relaxed">
-            I am a current Senior at Virginia Tech studying Computer Science.<br></br>
-            I am set to graduate in May 2023 with my Bachelor's.<br></br>
             I am currently looking for Post-Grad Full Time Opportunities.<br></br>
+            I am a Virginia Tech alumni.<br></br>
+            I am graduated with a Bachelor's in Computer Science.<br></br>
+           
           </p>
           <div className="flex justify-center">
             <a
