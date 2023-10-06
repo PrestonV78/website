@@ -1,4 +1,6 @@
 import React from "react";
+import { Routes, Route, Router } from "react-router-dom";
+
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
@@ -11,17 +13,13 @@ import End from "./components/End";
 export default function App() {
   return (
     <main className="bg-black text-gray-400 body-font">
-      <Navbar />
-      <About />
-      {/* <Space /> */}
-      <Projects />
-      <Space />
-      <Experience />
-      {/* <Space /> */}
-      <Skills />
-      {/* <Space /> */}
-      <Contact />
-      <End />
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+        </Routes>
+        <End />
+      </Router>
     </main>
   );
 }
