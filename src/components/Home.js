@@ -1,4 +1,6 @@
 import React from "react";
+import { Routes, Route, Router } from "react-router-dom";
+
 import About from "./About";
 import Contact from "./Contact";
 import Projects from "./Projects";
@@ -15,6 +17,15 @@ export default function Home() {
       <Experience />
       <Skills />
       <Contact />
+      <Router>
+        <Routes>
+          <Route exact path="/about" element={<About />} />
+          <Route exact path="/projects" element={<Projects />} />
+          <Route exact path="/experience" element={<Experience />} />
+          <Route exact path="/skills" element={<Skills />} />
+          <Route exact path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
