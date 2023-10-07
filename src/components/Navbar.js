@@ -13,23 +13,23 @@ export default function Navbar() {
           />
         </div>
         <a className="title-font font-medium text-white mb-4 md:mb-0">
-          <a href="#about" className="ml-3 text-xl">
+          <a href="/#about" className="ml-3 text-xl">
             Preston Verling
           </a>
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
-          <a href="#projects" className="mr-5 hover:text-white">
+          <a href="/#projects" className="mr-5 hover:text-white">
             Past Projects
           </a>
-          <a href="#experience" className="mr-5 hover:text-white">
+          <a href="/#experience" className="mr-5 hover:text-white">
             Past Experience
           </a>
-          <a href="#skills" className="mr-5 hover:text-white">
+          <a href="/#skills" className="mr-5 hover:text-white">
             Skills
           </a>
         </nav>
         <a
-          href="#contact"
+          href="/#contact"
           className="inline-flex items-center bg-purple-800 border-0 py-1 px-3 focus:outline-none hover:bg-purple-800 rounded text-base mt-4 md:mt-0 hover:text-white">
           Contact Me
           <ArrowRightIcon className="w-4 h-4 ml-1" />
