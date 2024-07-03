@@ -10,12 +10,12 @@ import Experience from "./Experience";
 export default function Home() {
   return (
     <div>
-      <About />
-      <Projects />
+      <About id='about'/>
+      <Projects id='projects'/>
       <Space />
-      <Experience />
-      <Skills />
-      <Contact />
+      <Experience id='experience'/>
+      <Skills id='skills'/>
+      <Contact id='contact'/>
     </div>
   );
 }
