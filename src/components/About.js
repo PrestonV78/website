@@ -1,21 +1,26 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export default function About() {
+  useEffect(() => {
+    const event = new Event("navigate");
+    window.dispatchEvent(event);
+  }, []);
+
   return (
     <section id="about">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-7xl text-3xl mb-4 font-HelloZone text-white">
-          Hello,
-          <br></br>My name is Preston.
+            Hello,
+            <br></br>My name is Preston.
             <br></br> I build creative solutions.
           </h1>
           <p className="mb-8 text-gray-400 leading-relaxed">
             I am currently working at Lockheed Martin Aeronautics.<br></br>
             I am a Virginia Tech alumni.<br></br>
             I am graduated with a Bachelor's in Computer Science.<br></br>
-           
+
           </p>
           <div className="flex justify-center">
             <AnchorLink

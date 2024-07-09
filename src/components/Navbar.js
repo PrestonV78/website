@@ -1,6 +1,7 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -32,6 +33,10 @@ export default function Navbar() {
             "/skills" className="mr-5 hover:text-white">
             Skills
           </AnchorLink>
+          <NavLink to=
+            "/extras" className="mr-5 hover:text-white">
+            Extras
+          </NavLink>
         </nav>
         <nav>
           <AnchorLink
